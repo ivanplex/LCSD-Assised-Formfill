@@ -1,0 +1,49 @@
+
+<!-- saved from url=(0075)https://t2.leisurelink.lcsd.gov.hk/lcsd/leisurelink/common/tile/t_frame.jsp -->
+<html style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script language="JavaScript">
+<!--
+	function logout(){
+	
+		// call logoff.so in AJAX to increase the reliability
+		// in some cases, logoff.do is not called using redirect, especially for IE 
+		var xmlHttp;
+		try
+	  	{  // Firefox, Opera 8.0+, Safari
+	  		xmlHttp=new XMLHttpRequest();
+	  	}catch (e)
+	  	{
+	  		// Internet Explorer
+	  		try
+	    	{
+	    		xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+	    	} catch (e)
+	    	{
+	    		try
+	    		{
+	    			xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+	    		} catch (e)
+	    		{
+					location.href = "/lcsd/leisurelink/logoff.do";
+	    		}
+	    	}
+	    }
+	    
+	  	xmlHttp.onreadystatechange=function()
+	    {
+	    	if(xmlHttp.readyState==4) {
+	      		//do nothing
+	      	}
+	    }
+	  
+		xmlHttp.open("GET","/lcsd/leisurelink/logoff.do",true);
+		xmlHttp.send(null);
+	
+	}
+//-->
+</script>
+
+<style></style></head><body onbeforeunload="logout()" marginwidth="0" marginheight="0">
+testing..
+
+
+</body></html>

@@ -1,0 +1,227 @@
+/* Typography - HTML Online Chinese */
+
+/* must in LVHA order */
+
+body { 	font-family:PMingLiU,MingLiU,Arial;  font-size:81.4%;  color:#000000;  HEIGHT: 100%; } 
+
+/* Hack that target Safari/Webkit/KHTML */
+/* because Safari on OS X 10.4 has problem displaying PMingLiu font */
+body:last-child:not(:root:root) {
+	font-family:MingLiu, Arial, Helvetica, sans-serif;
+}
+
+b     { font-family:PMingLiU,MingLiU,Arial;  font-size:1em;  color:#333333;  line-height:1.15em; }
+
+
+/* H1 to H5 */
+
+H1 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.46em; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT-FAMILY: PMingLiU,MingLiU,Arial; BORDER-RIGHT-WIDTH: 0px
+}
+H2 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT-FAMILY: PMingLiU,MingLiU,Arial; BORDER-RIGHT-WIDTH: 0px
+}
+H3 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1em; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT-FAMILY: PMingLiU,MingLiU,Arial; BORDER-RIGHT-WIDTH: 0px
+}
+
+UL.errormsg {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px
+}
+LI.errormsg {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 1em; PADDING-BOTTOM: 5px; LINE-HEIGHT: 1.15em; PADDING-TOP: 5px; FONT-FAMILY: PMingLiU,MingLiU,Arial; list-style-position: inside; LIST-STYLE-TYPE: disc
+}
+
+DIV.smallText {
+	FONT-WEIGHT: normal; FONT-SIZE: 1em; COLOR: #000000; FONT-FAMILY: PMingLiU,MingLiU,Arial; TEXT-DECORATION: none
+}
+
+
+LABEL.answer {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.15em; COLOR: #000000; FONT-FAMILY: PMingLiU,MingLiU,Arial; TEXT-DECORATION: none
+}
+
+INPUT.actionBtnBack {
+	TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; FONT-WEIGHT:bold; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #666666; BORDER-RIGHT-WIDTH: 0px
+}
+INPUT.actionBtnContinue {
+font-size:1em;
+	background-color:#A74128;
+	border:none;
+	cursor:pointer;
+	width:70px; height:39px;
+	font-weight: bold;
+	color: #FFFFFF;
+	#padding:3px 0px 0px 0px;
+}
+
+INPUT.actionBtnDisabled {
+font-size:1em;
+	background-color:#F2F2F2;
+	border:none;
+	cursor:pointer;
+	width:70px; height:39px;
+	font-weight: bold;
+	color: #FFFFFF;
+	#padding:3px 0px 0px 0px;
+}
+
+INPUT.actionBtnCancel {
+font-size:1em;
+	background-color:#A74128;
+	border:none;
+	cursor:pointer;
+	width:180px; height:39px;
+	font-weight: bold;
+	color: #FFFFFF;
+	#padding:3px 0px 0px 0px;
+}
+INPUT.actionBtnSubmit {
+	TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; FONT-WEIGHT:bold; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #cc0000; BORDER-RIGHT-WIDTH: 0px
+}
+
+INPUT.actionBtnBack_hover {
+	TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; FONT-WEIGHT:bold; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #ff6600; BORDER-RIGHT-WIDTH: 0px; CURSOR:POINTER
+}
+INPUT.actionBtnContinue_hover {
+    font-size:1em;
+	background-color: #E17F27;
+	border:none;
+	cursor:pointer;
+	width:70px; height:39px;
+	font-weight: bold;
+	color: #FFFFFF;
+	#padding:3px 0px 0px 0px;
+}
+
+INPUT.actionBtnCancel_hover {
+    font-size:1em;
+	background-color: #E17F27;
+	border:none;
+	cursor:pointer;
+	width:180px; height:39px;
+	font-weight: bold;
+	color: #FFFFFF;
+	#padding:3px 0px 0px 0px;
+}
+INPUT.actionBtnSubmit_hover {
+	TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; FONT-WEIGHT:bold; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #ff6600; BORDER-RIGHT-WIDTH: 0px; CURSOR:POINTER
+}
+
+INPUT.actionBtnLang1 {
+	TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-BOTTOM: 0px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #666666; BORDER-RIGHT-WIDTH: 0px; line-height:1.15em;
+}
+INPUT.actionBtnLang2 {
+	TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-BOTTOM: 0px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #666666; BORDER-RIGHT-WIDTH: 0px; line-height:1.15em;
+}
+
+INPUT.actionBtnLang1_hover {
+	TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-BOTTOM: 0px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #ff6600; BORDER-RIGHT-WIDTH: 0px; line-height:1.15em; CURSOR:POINTER
+}
+INPUT.actionBtnLang2_hover {
+	TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-BOTTOM: 0px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #ff6600; BORDER-RIGHT-WIDTH: 0px; line-height:1.15em; CURSOR:POINTER
+}
+
+a.link5:link {
+	LINE-HEIGHT: 1em; PADDING-TOP:3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: PMingLiU,MingLiU,Arial; FONT-SIZE: 1.15em; FLOAT: right; COLOR: #000000; TEXT-ALIGN: right; TEXT-DECORATION: none; BORDER-LEFT: #000000 1px solid
+}
+a.link5:visited {
+	LINE-HEIGHT: 1em; PADDING-TOP:3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: PMingLiU,MingLiU,Arial; FONT-SIZE: 1.15em; FLOAT: right; COLOR: #000000; TEXT-ALIGN: right; TEXT-DECORATION: none; BORDER-LEFT: #000000 1px solid
+}
+a.link5:hover {
+	LINE-HEIGHT: 1em; PADDING-TOP:3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: PMingLiU,MingLiU,Arial; FONT-SIZE: 1.15em; FLOAT: right; COLOR: #ffffff; TEXT-ALIGN: right; TEXT-DECORATION: none; BORDER-LEFT: #000000 1px solid
+}
+a.link5:focus {
+	LINE-HEIGHT: 1em; PADDING-TOP:3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: PMingLiU,MingLiU,Arial; FONT-SIZE: 1.15em; FLOAT: right; COLOR: #ffffff; TEXT-ALIGN: right; TEXT-DECORATION: none; BORDER-LEFT: #000000 1px solid
+}
+a.link5:active {
+	LINE-HEIGHT: 1em; PADDING-TOP:3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-FAMILY: PMingLiU,MingLiU,Arial; FONT-SIZE: 1.15em; FLOAT: right; COLOR: #000000; TEXT-ALIGN: right; TEXT-DECORATION: none; BORDER-LEFT: #000000 1px solid
+}
+
+
+/* link6 for helpdesk */
+a.link6:link    { font-family:PMingLiU,MingLiU,Arial; color:#cc0000; TEXT-DECORATION: none }
+a.link6:visited { font-family:PMingLiU,MingLiU,Arial; color:#cc0000; TEXT-DECORATION: none }
+a.link6:hover   { font-family:PMingLiU,MingLiU,Arial; color:#ff6600; TEXT-DECORATION: none }
+a.link6:focus   { font-family:PMingLiU,MingLiU,Arial; color:#ff6600; TEXT-DECORATION: none }
+a.link6:active  { font-family:PMingLiU,MingLiU,Arial; color:#cc0000; TEXT-DECORATION: none }
+
+a.link7:link    { font-family:PMingLiU,MingLiU,Arial; font-size:1em; color:#000000; TEXT-DECORATION: none }
+a.link7:visited { font-family:PMingLiU,MingLiU,Arial; font-size:1em; color:#000000; TEXT-DECORATION: none }
+a.link7:hover   { font-family:PMingLiU,MingLiU,Arial; font-size:1em; color:#ff6600; TEXT-DECORATION: none }
+a.link7:focus   { font-family:PMingLiU,MingLiU,Arial; font-size:1em; color:#ff6600; TEXT-DECORATION: none }
+a.link7:active  { font-family:PMingLiU,MingLiU,Arial; font-size:1em; color:#000000; TEXT-DECORATION: none }
+
+
+SELECT {
+	BORDER-RIGHT: #4b729e 1px solid; BORDER-TOP: #4b729e 1px solid; FONT-SIZE: 1.0em; BORDER-LEFT: #4b729e 1px solid; COLOR: #333333; LINE-HEIGHT: 1.15em; BORDER-BOTTOM: #4b729e 1px solid; FONT-FAMILY: PMingLiU,MingLiU,Arial
+}
+SELECT OPTION {
+	PADDING-LEFT: 2px
+}
+
+INPUT.border {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid;
+}
+
+.arrow {
+	FONT-SIZE: 1em; COLOR: #ff9900; FONT-FAMILY: PMingLiU,MingLiU,Arial
+}
+.text10 {
+	DISPLAY: inline; FONT-SIZE: 0.91em; FONT-FAMILY: PMingLiU,MingLiU,Arial; TEXT-DECORATION: none
+}
+.lastupdate {
+	DISPLAY: inline; FONT-SIZE: 0.91em; COLOR: #666666; FONT-FAMILY: PMingLiU,MingLiU,Arial; TEXT-DECORATION: none
+}
+SPAN.nobr {
+	WHITE-SPACE: nowrap
+}
+/*add by Iven for new UI format begin*/
+#bannerPanel div.text{
+	padding-top:15px;
+	color:#4d4d4d;
+	font-weight:bold;
+}
+div.step_hd span.step_no{
+	color:#FFFFFF;
+	padding:0px 25px 0px 15px;
+}
+div.step_hd span.step_info{
+	color:#4d4d4d;	
+	font-weight:bold;
+}
+div.step_hd span.step_remark{
+	color:#666666;
+	padding-left:5px;
+	font-size:0.85em;
+}
+DIV.formFieldLabelEn{
+	float:left; width:128px;
+	text-align:right;
+	padding-right:15px;
+}
+DIV.TablePanelNew{
+	FLOAT: left; WIDTH: 71%; MARGIN: 5px; font-size:1.13em;font-family:PMingLiU,MingLiU,Arial; color:#333333;
+}
+DIV.formFieldLabelnew {
+	FLOAT: left; WIDTH: 15%; TEXT-ALIGN: right; MARGIN: 5px; font-size:1.13em;font-family:PMingLiU,MingLiU,Arial; color:#333333;
+}
+DIV.tableText {
+	FLOAT: left; TEXT-ALIGN: left; MARGIN: 0px; font-size:1.0em;font-family:PMingLiU,MingLiU,Arial;  color:#333333;
+}
+DIV.tableTextNew {
+	FLOAT: left; TEXT-ALIGN: left; MARGIN: 0px; font-size:1.13em;font-family:PMingLiU,MingLiU,Arial;  color:#333333;
+}
+DIV.formFieldPrint {
+	FLOAT: left; WIDTH: 60%;MARGIN: 0px; padding:0px;
+	overflow-x: auto;
+ 	overflow-y: none;
+}
+DIV.formFieldLabelPrint {
+float:left;
+padding-left:0;
+padding-top:0;
+text-align:right;
+width:170px;
+}
+/*add by Iven for new UI format end*/

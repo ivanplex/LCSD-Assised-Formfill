@@ -1,0 +1,483 @@
+
+UNKNOWN {
+MARGIN: 0px; 
+BORDER-TOP: 0pt; BORDER-BOTTOM: 0pt; BORDER-LEFT: 0pt; BORDER-RIGHT: 0pt;
+PADDING-TOP: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+
+BODY { 
+background-image: url("../images/bg_page.jpg"); 
+background-repeat: repeat-x; 
+background-color:#ded9c3; 
+font-size:0.935em; 
+min-width:950px;
+}
+
+#body_shell {
+text-align:center;
+}
+
+a {
+text-decoration:none;
+padding:0;
+border:0;
+}
+a:link { color:#000000; }
+a:visited { color:#666666; }
+a:hover, a:active, a:focus   { color:#FF6600; }
+
+IMG {
+BORDER-TOP: 0pt; BORDER-BOTTOM: 0pt; BORDER-LEFT: 0pt; BORDER-RIGHT: 0pt
+}
+
+
+UL { 
+margin:0; 
+border:0; 
+text-align:left; 
+padding-left:5px; 
+padding-right:5px
+}
+
+LI {
+font-size:1em; 	 
+line-height:1.15em; 
+padding:5px 5px 5px 5px; 
+list-style-type:none;
+text-indent:0
+}
+
+#pagePanel {
+ width:expression( (document.body.clientWidth < 1030 ? "950px" : (document.body.clientWidth > 1088 ? "1040px" : "100%")) ); 
+}
+
+/*add by Iven for new UI format begin*/
+#mainpage_padding{
+
+text-align:center; padding-left:20px; padding-right:20px; margin:0px;
+}
+/*add by Iven for new UI format end*/
+#topPanel {
+WIDTH: 100%; 
+FLOAT: left; 
+BACKGROUND-POSITION: right 50%; 
+BACKGROUND-IMAGE: url(../images/mainarea_bg.gif); 
+BACKGROUND-REPEAT: repeat-y; 
+min-width: 750px; max-width: 955px;
+BORDER-TOP: #000000 1px solid; 
+BORDER-BOTTOM: #000000 1px solid; 
+BORDER-LEFT: #000000 1px solid; 
+BORDER-RIGHT: #000000 1px solid
+}
+
+#header {
+	text-align: left;
+	width:100%; height:27px;
+	margin-bottom: 20px;
+	margin-top:38px;
+	vertical-align:bottom;
+}
+#headerLeftPanel {
+	FLOAT: left;
+	WIDTH: 63%;
+	VERTICAL-ALIGN: bottom;
+}
+
+#headerRightPanel {
+	FLOAT: right;
+	PADDING-TOP: 15px; MARGIN-RIGHT: 5px;
+	TEXT-ALIGN: right; VERTICAL-ALIGN: middle;
+}
+	
+#headerRightPanel A {
+	FONT-WEIGHT: normal;
+	TEXT-DECORATION: none;
+	PADDING-TOP: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px;
+	BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#headerRightPanel A:link {
+	COLOR: #000000
+}
+#headerRightPanel A:visited {
+	COLOR: #000000
+}
+#headerRightPanel A:hover {
+	COLOR: #ff840c
+}
+#headerRightPanel A:focus {
+	COLOR: #ff840c
+}
+#headerRightPanel A:active {
+	COLOR: #ff840c
+}
+		
+	#headerNavSkip {
+		FLOAT: left; 
+	}
+		#headerNavSkip A:link {
+			FONT-SIZE: 0.8em; COLOR: #ffffff; TEXT-DECORATION: underline
+		}
+		#headerNavSkip A:visited {
+			FONT-SIZE: 0.8em; COLOR: #ffffff; TEXT-DECORATION: underline
+		}
+		#headerNavSkip A:hover {
+			FONT-SIZE: 0.8em; COLOR: #666666; TEXT-DECORATION: underline
+		}
+		#headerNavSkip A:focus {
+			FONT-SIZE: 0.8em; COLOR: #666666; TEXT-DECORATION: underline
+		}
+		#headerNavSkip A:active {
+			FONT-SIZE: 0.8em; COLOR: #666666; TEXT-DECORATION: underline
+		}
+
+#bannerPanel {
+	text-align:left;
+	width:100%; 
+	height:52px;
+	margin-bottom: 18px;
+	background:url("../images/subheader_bg.jpg");
+	vertical-align:middle;
+	font-size:1.20em;
+}
+
+#midPanel {
+clear:both;
+width:100%;	
+margin:0px;
+padding-bottom:5px;
+text-align:left;
+border:none;
+background-image: url('../images/bottom_border.jpg');
+background-repeat:repeat-x;
+background-position:bottom;
+background-color:#FFFFFF;
+}
+
+/*add by Iven for new UI format begin*/
+
+#bannerPanel div.cluster{
+	float:left;
+	width:46px;
+	background-color:#68AFAC;
+	height:42px;
+	overflow:hidden;
+	margin:5px 0px 5px 0px;
+}
+
+#bannerPanel  img.icon {
+margin:11px 11px 0px 11px;
+}
+#bannerPanel div.icon {
+vertical-align:middle;
+float:left;
+}
+#header div.logo {
+ float: left;
+}
+#header div.exit {
+float: right;
+height:27px;
+line-height:27px;
+background-image:url(../images/icon_close.jpg);
+background-repeat:no-repeat;
+background-position:center right;
+}
+a.exit:link, a.exit:active, a.exit:visited{
+color:#666666;
+text-decoration:none;
+padding-right:23px;
+	
+}
+
+a.exit:hover{
+text-decoration:underline;
+}
+
+#header div.lang1 {
+float: right;
+margin-top: 5px;
+margin-right:8px;
+}
+#header div.langspacer{
+float: right;
+margin-top: 8px;
+margin-right:7px;
+height:12px;
+width:1px;
+overflow:hidden;
+border-left:1px solid #744c28;
+}
+#header div.lang2 {
+float: right;
+margin-top: 5px;
+margin-right:10px;
+}
+#bannerPanel div.text{
+padding-top:15px;
+color:#4d4d4d;
+font-weight:bold;
+}
+.navlink_item a { 
+display: block;
+background-color: #E8E3CD;
+color: #1A1A1A;
+padding: 3px;
+font-weight:bold;
+padding-left: 10px; padding-right: 7px; padding-top: 7px; padding-bottom: 7px;
+text-decoration: none;
+background-image:url('../images/arrow.jpg');
+background-repeat:no-repeat; background-position:115px 10px;
+border:1px solid #E8E3CD;
+}
+div.navlink_item2 {
+padding-left: 10px; padding-right: 7px; padding-top: 7px; padding-bottom: 7px;
+background-color: #e8e3cd;
+margin-bottom: 5px;
+text-align: left;
+color: #1a1a1a;
+border:1px solid #E8E3CD;
+}
+div.navlink_item2 div.title{
+font-weight:bold;
+margin-bottom:5px;
+}
+span.note {
+color: #CC0000;
+}
+a.email:link, a.email:active{
+color:#003399;
+text-decoration:none;
+font-weight:normal;
+font-family: Arial, Helvetica, sans-serif, DFSongStd;
+}
+a.email:visited{
+color: #6B5B9A;
+font-weight:normal;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif, DFSongStd;
+}
+a.email:hover{
+text-decoration:underline;
+font-weight:normal;
+font-family: Arial, Helvetica, sans-serif, DFSongStd;
+}
+div.rowHeader{
+margin:0px;
+padding:15px 10px 25px 20px;
+}
+
+div.rowHeader div.gov_logo{
+position:absolute;
+
+}
+
+#footerPanel  #leftMenuPanel {
+width:68%; text-align:left; vertical-align:center; float: left;
+}
+
+#footerPanel  #contentPanel {
+width:80%; text-align:right; float: right;
+}
+
+div.contenttable {
+border: 1px #CCCCCC solid;
+padding:0px;
+}
+
+div.contenttable  div.row {
+padding-left: 10px; padding-right:10px; padding-top: 7px; padding-bottom: 10px;
+display:block;
+color:#333333;
+
+}
+div.row  div.leftcol{
+display:table-cell;
+float:left;
+width:50%;
+position:relative;
+}
+div.row  div.rightcol{
+display:table-cell;
+padding:3px 3px 3px 3px;
+text-align:left;
+display:inline-block;
+}
+/*add by Iven for new UI format end*/
+
+#midPanel #contentPanel {
+background-color: white;
+padding-left: 0px; padding-right: 13px; 
+border: none;
+text-align: left;
+padding-left:164px;
+}
+
+#midPanel  #leftMenuPanel {
+width: 164px;
+background-color: white;
+padding:0px;
+margin:0px;
+vertical-align:top;
+position:absolute;
+}
+DIV.leftMenuSubPanel {
+	text-align:left; position:relative; left:13px;
+}
+	
+	DIV.leftMenuTitle { 
+		width:140px; 
+		margin-bottom: 12px;
+	}
+	
+	DIV.leftMenuPanelWhiteBox {
+		PADDING-TOP: 5px; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; 
+		BACKGROUND-COLOR: #f0f0f0
+	}
+	
+	DIV.leftMenuPanelDimBox {
+		DISPLAY: block; 
+		MARGIN: 0px;
+		PADDING-TOP: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px;
+		BACKGROUND-COLOR: #f0f0f0
+	}
+	
+	DIV.stepBoxWhiteBackground {
+		padding-top:7px;
+		padding-bottom:10px;
+		padding-left:10px;
+		text-align: left;
+		color:#4D4D4D;
+	}
+	div.stepBoxWhiteBackground#sel {
+			background-image: url('../images/bg_nav.jpg');
+			background-repeat: repeat-y;
+			color: #ffffff;			
+	}
+	/*add by Iven for new UI format begin*/
+	div.stepBoxWhiteBackground div{
+		margin-right:10px;
+	}
+	
+	/*add by Iven for new UI format end*/
+	DIV.stepBoxSelected {
+		DISPLAY: block; 
+		MARGIN: 0px; 
+		PADDING-TOP: 5px; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px;
+		COLOR: #ffffff; BACKGROUND-COLOR: #cc0000; BORDER-BOTTOM: #ffffff 2px solid;
+	}
+#contentPanelFloat {
+	FLOAT: left; MARGIN-LEFT: -135px; WIDTH: 99%;
+}
+#contentPanelFix {
+	MARGIN-LEFT: 145px;
+}
+
+
+
+#formPanel {
+
+}
+	DIV.formTitle { 
+		margin-bottom: 25px;
+		background-color: white;
+	}
+	
+	DIV.errorPanel {	
+		BACKGROUND-COLOR:#F0F0F0;
+		BORDER:2px solid #CC0000;
+		COLOR:#CC0000;
+		margin-bottom: 25px;	   
+	}
+	
+	/*
+	DIV.errorPanel {
+		FLOAT: left; 
+		WIDTH: 99%; 
+		PADDING-TOP: 3px; PADDING-BOTTOM: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; 
+		BORDER-TOP: #cc0000 2px solid; BORDER-BOTTOM: #cc0000 2px solid; BORDER-LEFT: #cc0000 2px solid; BORDER-RIGHT: #cc0000 2px solid; 
+		COLOR: #cc0000; 
+		BACKGROUND-COLOR: #f0f0f0
+	}
+	*/
+	DIV.declarationPanel {
+		FLOAT: left; 
+		WIDTH: 468px; 
+		MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px; 
+		PADDING-TOP: 2px; PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; 
+		BORDER-TOP: #a5e0b0 1px solid; BORDER-BOTTOM: #a5e0b0 1px solid; BORDER-LEFT: #a5e0b0 1px solid; BORDER-RIGHT: #a5e0b0 1px solid; 
+	}	
+	
+#footerPanel {
+width: 100%;
+height: 87px; padding-top:25px;
+}
+#footerRow {
+	FLOAT: left;
+	WIDTH: 100%;
+	BORDER-BOTTOM: #cc0000 2px solid
+}
+	#footerPanelLeft {
+		FLOAT: left;
+		MARGIN-TOP: 47px;
+		VERTICAL-ALIGN: bottom;
+		BACKGROUND-COLOR: #DDE4F6;
+	}
+	
+		#footerPanelLeft .navItem {
+			FLOAT:left;
+			MARGIN-TOP:5px;
+			PADDING-TOP:2px; PADDING-LEFT:10px; PADDING-RIGHT:10px;
+			BORDER-RIGHT:1px solid #000000; 
+			BACKGROUND-COLOR:#DDE4F6
+		}
+		
+		#footerPanelLeft ul { 
+			FLOAT:left;
+			LIST-STYLE:none;
+			PADDING:0;
+		}
+		#footerPanelLeft ul li {
+			DISPLAY: inline;
+			PADDING: 0 0 2px 0; 
+		} 
+		#footerPanelLeft ul li a:link,
+		#footerPanelLeft ul li a:visited { 
+			color:#000000;
+		}
+		#footerPanelLeft ul li a:hover, 
+		#footerPanelLeft ul li a:active,
+		#footerPanelLeft ul li a:focus  {
+			color:#FF6600;
+		}
+
+	#footerPanelRight {
+		MARGIN-TOP: 3px;
+		FLOAT: right;
+		VERTICAL-ALIGN: middle
+	}
+	
+.textHolder {
+FONT-SIZE: 1em;
+FLOAT: left;
+VERTICAL-ALIGN: middle
+}
+#searchResultTable{
+	width: 100%;
+ 	overflow-x: auto;
+ 	overflow-y: none;	
+}
+
+#tableLayout{
+	width: 100%;
+ 	overflow-x: auto;
+ 	overflow-y: none;	
+}
+			
+#tableLayoutNoScroll{
+	width: 100%;
+ 	overflow-x: none;
+ 	overflow-y: none;	
+}
+
+
+

@@ -1,0 +1,1391 @@
+
+<!-- saved from url=(0082)https://t2.leisurelink.lcsd.gov.hk/lcsd/leisurelink/activitySearch/login/login.jsp -->
+<html style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="PRAGMA" content="NO-CACHE">
+	<meta http-equiv="EXPIRES" content="0">
+	<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+	  	
+	<meta name="ROBOTS" content="NONE">	
+	<meta name="GOOGLEBOT" content="NOARCHIVE">	
+	<meta name="X-UA-Compatible" content="IE=EmulateIE8">
+	
+		
+				<link rel="stylesheet" type="text/css" href="./typographyTC.css">
+				<link rel="stylesheet" type="text/css" href="./onlineService.css">
+				<link rel="stylesheet" type="text/css" href="./lcsd.css">
+				<link rel="stylesheet" type="text/css" href="./lcsdTC.css">
+		
+
+	<link rel="stylesheet" type="text/css" media="print" href="./print.css"> 
+	
+<meta name="gwt:module" content="gwt-files=hk.gov.lcsd.leisurelink.ActivityEnrollmentLogin">
+	<!--<base href="https://t2.leisurelink.lcsd.gov.hk/lcsd/leisurelink/activitySearch/login/login.jsp">--><base href=".">
+<script language="JavaScript" type="text/javascript" src="./keyTrap.js"></script><style></style><script language="JavaScript">
+var contextPath = {
+
+  contextPathURL:"https://t2.leisurelink.lcsd.gov.hk:443/lcsd/leisurelink"
+};
+
+function openwindow(page)
+{
+   myWin= open(page, "popupWindow",
+   "width=800,height=600,copyhistory=no,scrollbars=yes,resizable=yes,screenX=0,screenY=0,left=0,top=0,hotkeys=no,status=yes");
+}
+
+	var defaultFocus = true;
+	function setDefaultFocus(){
+		var inputObjs = document.body.getElementsByTagName("INPUT");
+		for(var i=0; i<inputObjs.length; i++){
+		if(inputObjs[i].type == "text" && !inputObjs[i].disabled && inputObjs[i].style.visibility != "hidden" && !inputObjs[i].readOnly){
+		//alert(inputObjs[i].name + ", disable=" + inputObjs[i].disabled + ", visable=" + inputObjs[i].style.display);
+				inputObjs[i].focus();
+				break;
+			}
+		}
+	}
+
+<!--
+	function pageOnload() {
+		//checkParentBrowser();
+	}
+
+	function checkParentBrowser(){	
+	
+		// isCK
+		
+	
+	}
+//-->
+</script></head>
+
+
+
+
+<body oncontextmenu="return false" onunload="return false" ondragstart="return false" onselectstart="return false" onload="pageOnload()">
+<a name="errorMessageAnchor"></a>
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+       <!-- Include the bootstrap script just inside the body or in the head    -->
+          <!-- (startup is slightly faster if you place it just after the body tag -->
+          
+		     	<script language="javascript" src="./hk.gov.lcsd.leisurelink.ActivityEnrollmentLogin.nocache.js"></script><script defer="defer">hk_gov_lcsd_leisurelink_ActivityEnrollmentLogin.onInjectionDone('hk.gov.lcsd.leisurelink.ActivityEnrollmentLogin')</script>
+
+		<iframe src="javascript:&#39;&#39;" id="__gwt_historyFrame" style="width:0;height:0;border:0" src="./saved_resource.html"></iframe>          
+<div id="body_shell">
+	<div id="pagePanel">
+		<div id="mainpage_padding">
+			<!-- top header panel includes eGov picture and close window image button -->
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--
+	<div id="headerLeftPanel">
+		<h1>
+			<img src="/lcsd/leisurelink/images/tchinese/flag_h40_trans.gif" alt="GovHK Logo" height="45" lang="zh">
+		</h1>
+	</div>
+	<div id="headerNavSkip">
+	
+	</div>
+	<div id="headerRightPanel">
+	</div>
+	-->
+	<div id="header">				
+	<div class="logo"><a href="http://www.gov.hk/" target="_blank"><img src="./header.jpg" alt="Web Page Logo" lang="zh"></a>
+	</div>
+	<div class="hidden">
+		<h2>
+			離開
+		</h2>
+	</div>
+	<div class="exit">	
+	<a class="exit" href="javascript:closeMe();">離開</a>
+	</div>
+</div>	
+				
+			<!-- end of header -->		
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+	function logout(){
+		// call logoff.so in AJAX to increase the reliability
+		// in some cases, logoff.do is not called using redirect, especially for IE 
+		var xmlHttp;
+		try
+	  	{  // Firefox, Opera 8.0+, Safari
+	  		xmlHttp=new XMLHttpRequest();
+	  	}catch (e)
+	  	{
+	  		// Internet Explorer
+	  		try
+	    	{
+	    		xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+	    	} catch (e)
+	    	{
+	    		try
+	    		{
+	    			xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+	    		} catch (e)
+	    		{
+					location.href = "/lcsd/leisurelink/logoff.do";
+	    		}
+	    	}
+	    }
+	    
+	  	xmlHttp.onreadystatechange=function()
+	    {
+	    	if(xmlHttp.readyState==4) {
+	      		//do nothing
+	      	}
+	    }
+	  
+		xmlHttp.open("GET","/lcsd/leisurelink/logoff.do",true);
+		xmlHttp.send(null);
+	}
+
+	function closeMe(){
+	
+		var answer = confirm("你確定離開此服務?");
+		
+
+		if (answer){
+			if(parent.disableOnbeforeunload!=undefined){
+				parent.disableOnbeforeunload();
+			}
+		    if(parent.dummy_container!=undefined && parent.dummy_container.logout !=undefined){
+				parent.dummy_container.logout=null;
+		 	}
+			logout();
+			if(parent.window!=null){
+				parent.window.close();
+			}else{
+				window.close();
+			}
+		}
+	}
+//-->
+</script>
+<div id="bannerPanel">
+	<div class="cluster">&nbsp;</div>
+	<div class="icon"><img src="./subheader_icon.gif" alt="" class="icon"></div>
+	<div class="text"> 報名參加康樂活動 </div>        
+</div>			
+			<div id="midPanel">
+				<div id="leftMenuPanel">					
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="leftMenuSubPanel">
+	<div class="navstep">
+		<div class="stepBoxWhiteBackground" id="sel">
+				<h2><strong>第一步</strong></h2>
+				<br>
+				登入
+			</div>
+			<div class="stepBoxWhiteBackground">
+				<h2><strong>第二步</strong></h2>
+				<br>
+				選擇活動
+			</div>
+			<div class="stepBoxWhiteBackground">
+				<h2><strong>第三步</strong></h2>
+				<br>
+				輸入申請資料
+			</div>
+			<div class="stepBoxWhiteBackground">
+				<h2><strong>第四步</strong></h2>
+				<br>
+				確定
+			</div>
+			<div class="stepBoxWhiteBackground">
+				<h2><strong>第五步</strong></h2>
+				<br>
+				網上即時繳費
+			</div>
+			<div class="stepBoxWhiteBackground">
+				<h2><strong>第六步</strong></h2>
+				<br>
+				收取確認通知書 
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript">
+<!--
+parent.document.title="Screen ID SC-573-5-301 康樂及文化事務署 - 康體通";
+
+//-->
+</script>		
+								
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="leftMenuSubPanel">
+		<div class="leftMenuTitle">
+			<div class="navlink_item">
+					
+							<h2><strong><a class="navlink" target="_blank" href="http://leisurelink.lcsd.gov.hk/demo/chinese/">網上說明</a></strong></h2>
+										
+									
+		     </div>
+        </div>
+		<div class="leftMenuTitle">	
+			<div class="navlink_item">	
+					
+							<h2><strong><a class="navlink" target="_blank" href="http://w1.leisurelink.lcsd.gov.hk/faq/faqIndex.jsp?lang=TC">常見問題</a></strong></h2>
+												
+					
+					</div>
+				</div>
+					
+				<div class="leftMenuTitle">
+					<div class="navlink_item2">	
+						<div class="title">相關資訊</div>
+						<div>
+							<a target="_blank" href="http://www.lcsd.gov.hk/">康樂及文化事務署 
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="leftMenuTitle">
+					<div class="navlink_item2">			
+						<div class="title">
+						    查詢
+						</div>
+						<div><span class="note">
+						    2679 6822
+							</span>
+						</div>
+						<div>
+							或電郵至						
+							<a href="mailto:leisurelink.helpdesk@nechk.nec.com.hk">
+							leisurelink.helpdesk @nechk.nec.com.hk
+							</a>
+				        </div>
+					</div>
+				</div>
+				<div class="leftMenuTitle">
+						<div class="navlink_item2">	
+							<img src="./nav_perform.gif" alt="服務承諾">							
+							<br>
+							<div class="smallText">
+								我們會盡可能於1個工作日內處理你的申請
+							</div>				
+					    </div>
+                    </div>
+	            </div>
+					
+					
+				</div>
+				<div id="contentPanel"> 
+					<div class="formPanel">
+						
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+							<div class="formTitle">
+								<h2><strong>
+								康樂活動
+								</strong></h2>
+							</div>
+							<br/>
+-->
+<div class="cell">
+    <div class="contenttable">
+        <div class="step_hd">
+                <span class="step_no">第一步</span>
+                <span class="step_info">登入</span>		
+				<span class="step_remark">註有＊的項目必須輸入資料</span>				
+	    </div>	
+	</div>
+</div>
+		
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript">
+<!--
+	function patronClick(form, flag){
+		for (var i=0; i<form.patronFlag.length; i++) {
+			if (form.patronFlag[i].value == flag) {
+				form.patronFlag[i].checked = true;
+				break;
+			}
+		}
+		if(flag=='R'){
+			form.hkId.value="";
+			form.hkIdCheckDigit.value ="";
+			form.dobYYYY.value ="";
+			form.dobMM.value ="";
+			form.dobDD.value ="";
+			for(var i=0; i<form.gender.length; i++) {
+				form.gender[i].checked = false;
+			}
+		}else{
+			form.leisureLinkId.value="";
+			form.password.value ="";
+		}
+	}
+	
+	function resetForm(form) {
+		form.hkId.value="";
+		form.hkIdCheckDigit.value ="";
+		form.dobYYYY.value ="";
+		form.dobMM.value ="";
+		form.dobDD.value ="";
+		form.leisureLinkId.value="";
+		form.password.value ="";
+		form.activityCode.value="";
+		if (form.gender.type == "radio") {
+			form.gender[0].checked="true";
+		} else {
+			form.gender.value="";
+		}
+		
+		hideErrors();
+		
+		resetRecommendation();
+
+		
+		pushAllToSelectablePicSlots();
+					
+	}
+	
+	function hideErrors() {
+		var e = document.getElementById('globalErrorPanel');
+		if(e!=null)
+			e.parentNode.removeChild(e);
+		var a = document.getElementsByName('globalErrorIcon');
+		for(var i=a.length-1; i>=0; i--)
+		{
+			a[i].parentNode.removeChild(a[i]);
+		}
+	}
+	
+	function gotoActivitySearch(form) {
+		
+		try {
+			disableRegenBtn();
+		} catch (err) {
+			// do nothing
+		}		
+			
+
+		var flowPanel = document.getElementById('flowLinkPanel');
+		if (flowPanel != null) {
+			flowPanel.style.display = "none";
+		}
+		var buttonPanel = document.getElementById('buttonPanel');
+		if (buttonPanel != null) {
+			buttonPanel.style.display = "none";
+		}	
+		
+		form.isSearch.value = 'true';
+		form.submit();
+	}
+	
+	function gotoLoginWithCode(code) {
+		window.location = "activitySearchLogin.do?code="+code;
+	}
+	
+	function isShowResult() {
+		var c = document.getElementById('showResult');
+		if(c!=null)
+			return c.value;
+			
+		return null;
+	};
+		
+	function popupLoginGuide() {
+
+	
+	    window.open("https://t2.leisurelink.lcsd.gov.hk/lcsd/leisurelink/patronReg/home.do?appId=c003&serverId=Server1&flowId=51&lang=TC", "loginGuide", "width=800,height=600,copyhistory=no,scrollbars=yes,resizable=yes,screenX=0,screenY=0,left=0,top=0,hotkeys=no,status=yes");
+	
+	
+    }
+    
+    function toggleMask(clickButton) {
+        var oType="";
+        var hkidObject =document.getElementById('hkId');
+	    var checkDigitObject = document.getElementById('hkIdCheckDigit');
+        if(hkidObject.type=="password"){
+      		oType="text";
+      		clickButton.value=" 遮蔽香港身份證號碼 ";
+        }else{
+      	  oType="password";
+      	  clickButton.value=" 顯示香港身份證號碼 ";
+        }
+		toggleMaskField(hkidObject, oType);
+        toggleMaskField(checkDigitObject ,oType);
+	    return;
+    }
+
+	function toggleMaskField(oldObject, oType){
+        var newObject = document.createElement('input');
+        newObject.type = oType;
+        if(oldObject.size) newObject.size = oldObject.size;
+        if(oldObject.value) newObject.value = oldObject.value;
+        if(oldObject.name) newObject.name = oldObject.name;
+        if(oldObject.id) newObject.id = oldObject.id;
+        if(oldObject.className) newObject.className = oldObject.className;
+        if(oldObject.maxLength) newObject.maxLength = oldObject.maxLength;
+        if(oldObject.onfocus) newObject.onfocus = oldObject.onfocus;
+        oldObject.parentNode.replaceChild(newObject,oldObject);
+	}    
+	
+    function autoTab(srcField, srcFieldMaxLength, targetField, evt) {
+		evt = (evt) ? evt : event;
+		var charCode = (evt.charCode) ? evt.charCode : ((evt.keyCode) ? evt.keyCode : ((evt.which) ? evt.which : 0));
+		if (targetField == null) return;
+		if (srcField.value.length == srcFieldMaxLength && charCode >= 32) {
+			targetField.focus();
+		}
+	}
+
+	function onSubmit() {
+		
+		disableRegenBtn();			
+		captureSelectedPics();
+			
+
+		var flowPanel = document.getElementById('flowLinkPanel');
+		if (flowPanel != null) {
+			flowPanel.style.display = "none";
+		}
+		document.getElementById('buttonPanel').style.display = "none";		
+	}
+//-->
+</script>
+
+
+
+<div class="cell">
+	<div class="contenttable">		    
+		<div class="row">
+			登入日期及時間: 26-11-2017 06:18:11<br>
+							
+			
+			<font color="red">你可報名參加在2017年11月25日或之前開始接受報名的康樂活動。 </font><br>
+	
+		</div>
+	</div>
+</div>					
+<form name="ActivitySearchLoginForm" method="post" action="https://t2.leisurelink.lcsd.gov.hk/lcsd/leisurelink/activitySearch/login/activitySearchLogin.do">
+<input type="hidden" value="" name="ErrString">
+
+<input type="hidden" name="isSearch" value="false" id="isSearch">
+<input type="hidden" name="showResult" value="false" id="showResult">
+<div class="cell">
+	<div class="contenttable">	
+		<div class="title">
+			輸入申請人資料
+		</div>
+
+
+
+		<div class="row">							
+			<input type="radio" name="patronFlag" value="R" checked="checked" onclick="patronClick(this.form,&#39;R&#39;)" id="radRegId">
+			已登記用戶					
+		    <div class="clear">&nbsp;</div>						
+			<div class="formFieldLabel20">康體通編號</div>
+			<div class="formFieldMandatoryArea">*</div>			
+			<div class="formFieldInputComponent65">
+				<input type="text" name="leisureLinkId" maxlength="15" size="15" value="" onfocus="patronClick(this.form,&#39;R&#39;)" id="leisureLinkId">
+				&nbsp;
+				 
+				<input class="actionBtnSmallAlignTop" value=" 用戶申請 " type="button" onmouseover="this.className=&#39;actionBtnSmallAlignTop_hover&#39;;" onfocus="this.className=&#39;actionBtnSmallAlignTop_hover&#39;;" onmouseout="this.className=&#39;actionBtnSmallAlignTop&#39;;" onclick="javascript:popupLoginGuide();return false;" onblur="this.className=&#39;actionBtnSmallAlignTop&#39;;">
+			</div>
+		    <div class="clear">&nbsp;</div>		
+			<div class="formFieldLabel20">密碼</div>
+			<div class="formFieldMandatoryArea">*</div>	            			
+			<div class="formFieldInputComponent65">
+			<div id="tableLayout">
+				<input type="password" id="password" onfocus="patronClick(this.form,&#39;R&#39;)" value="" size="10" maxlength="10" name="password" autocomplete="OFF">
+				
+			<span class="AlignTop">
+			</span>
+				&nbsp;
+										
+			</div>
+			</div>
+		</div>	
+        <div class="rowseperator">
+			<div class="seperator">&nbsp;</div>
+		</div>		
+		<div class="row">		
+			<input type="radio" name="patronFlag" value="N" onclick="patronClick(this.form,&#39;N&#39;)" id="radNonRegId">
+			非登記用戶	
+		    <div class="clear">&nbsp;</div>		
+			<div class="formFieldLabel20">香港身份證號碼</div>
+			<div class="formFieldMandatoryArea">*</div>			
+			<div class="formFieldInputComponent65">
+				<input id="hkId" type="password" onfocus="patronClick(this.form,&#39;N&#39;)" value="" size="8" maxlength="8" name="hkId" autocomplete="OFF">
+
+				( 
+				<input type="password" id="hkIdCheckDigit" onfocus="patronClick(this.form,&#39;N&#39;)" value="" size="1" maxlength="1" name="hkIdCheckDigit" autocomplete="OFF">
+
+				)
+				&nbsp;
+				<input type="button" onclick="javascript:toggleMask(this);return false;" onblur="this.className=&#39;actionBtnSmallAlignTop&#39;;" onmouseout="this.className=&#39;actionBtnSmallAlignTop&#39;;" onfocus="this.className=&#39;actionBtnSmallAlignTop_hover&#39;;" onmouseover="this.className=&#39;actionBtnSmallAlignTop_hover&#39;;" value=" 顯示香港身份證號碼 " class="actionBtnSmallAlignTop">		
+				
+			</div>
+		    <div class="clear">&nbsp;</div>
+			<div class="formFieldLabel20">&nbsp;</div>
+			<div>&nbsp;
+				<span class="alignTop">                     					
+					
+				</span>	
+			
+			</div>
+		    <div class="clear">&nbsp;</div>		
+			<div class="formFieldLabel20">出生日期 </div>
+			<div class="formFieldMandatoryArea">*</div>			
+			<div class="formFieldInputComponent65">
+				<input type="text" name="dobDD" maxlength="2" size="2" value="" onkeyup="autoTab(this, 2, this.form.dobMM, event);" onfocus="patronClick(this.form,&#39;N&#39;)" id="dobDD"> 
+				- 
+				<input type="text" name="dobMM" maxlength="2" size="2" value="" onkeyup="autoTab(this, 2, this.form.dobYYYY, event);" onfocus="patronClick(this.form,&#39;N&#39;)" id="dobMM">
+				- 
+				<input type="text" name="dobYYYY" maxlength="4" size="4" value="" onfocus="patronClick(this.form,&#39;N&#39;)" id="dobYYYY">
+				<span class="AlignTop">
+							&nbsp;(日期格式為DD-MM-YYYY(日∕月∕年))
+				</span>
+										
+			</div>
+		    <div class="clear">&nbsp;</div>
+		
+			<div class="formFieldLabel20">性別 </div>
+			<div class="formFieldMandatoryArea">*</div>			
+			<div class="formFieldInputComponent65">
+				<input type="radio" name="gender" value="M" onclick="patronClick(this.form,&#39;N&#39;)">
+					<span class="AlignTop">
+						&nbsp;男性
+					</span>
+				<input type="radio" name="gender" value="F" onclick="patronClick(this.form,&#39;N&#39;)">
+				 <span class="AlignTop">
+					 &nbsp;女性
+				 </span>
+				&nbsp;
+								
+			</div>
+			<div class="clear">&nbsp;</div>
+		</div>
+		<div class="clear">&nbsp;</div>
+		<div class="rowseperator">
+		<div class="seperator">&nbsp;</div>
+		</div>	
+
+
+
+		<div class="clear">&nbsp;</div>
+		<div class="row">		    	
+			<div class="formFieldLabel20">活動編號 </div>
+			<div class="formFieldMandatoryArea">*</div>			
+			<div class="formFieldInputComponent65">
+				<input type="text" name="activityCode" maxlength="15" value="" id="activityCode">
+				<!-- TODO <input type="text" onfocus="setPatronFlag(this.form, 'N');" value="111111" maxlength="20" size="20" name="REQ_DOB_YEAR"/> -->
+					&nbsp;
+				
+			</div>
+		</div>
+		
+			
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+<style>
+
+.loginCaptchaRow {
+	margin-left: 3px;	
+}
+
+.loginCaptchaRowElement {
+	float: left;
+}
+
+.td_picSlot {
+	height: 50px;
+	width: 50px;
+    border: solid 1px;
+    border-color: black;
+}
+
+.td_captchaPicSlot {
+	height: 50px;
+	width: 200px;
+    border: solid 1px;
+    border-color: black;
+}
+
+table.keyboard, tr.keyboard, td.keyboard {
+    border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.keyboard {
+    border-collapse: collapse;
+}
+
+img.keyboard {
+	display: block;
+}
+</style>
+
+
+<script language="JavaScript">
+
+var selectablePicSlots = [];
+var selectedPicSlots = [];
+
+var keyboardReloading = true;
+var keyboardReloadCheckStatusCount = 0;
+var captchaImgLoaded = false;
+var keyboardImgsLoaded = [];
+var keyboardReloadTsSubmitted = 'N/A';
+var keyboardReloadCode1Submitted = 'N/A';
+var keyboardReloadCode2Submitted = 'N/A';
+
+function reloadJSP() {
+	location.href = '/lcsd/leisurelink/login/form.do';
+}
+
+function extractTsFromCaptchaUrl(url) {
+	var pattern = '/cimg/';
+	var ts;
+
+	if (url == null) {
+		return null;
+	}
+
+	if (url.length <= pattern.length) {
+		return null;
+	}
+
+	var startIndex = url.lastIndexOf(pattern);
+	
+	if (startIndex >= 0) {
+		var imgFileName = url.substring((startIndex + pattern.length), url.length);
+		var imgFileExt = '.png';
+
+		if (imgFileName == null) {
+			return null;
+		}
+
+		if (imgFileName.length <= imgFileExt.length) {
+			return null;
+		}
+
+		ts = imgFileName.substring(0, (imgFileName.length - imgFileExt.length));
+	}
+	
+	return ts;					
+}	
+		
+function extractPicCodeFromUrl(url) {
+	var pattern = '/kimg/';
+	var code;
+
+	if (url == null) {
+		return null;
+	}
+
+	if (url.length <= pattern.length) {
+		return null;
+	}
+
+	var startIndex = url.lastIndexOf(pattern);
+	
+	if (startIndex >= 0) {
+		var imgFileName = url.substring((startIndex + pattern.length), url.length);
+
+		var paramSeperator = '_';
+		var imgFileExt = '.png';
+		
+		if (imgFileName == null) {
+			return null;
+		}
+
+		if (imgFileName.length < (1 + paramSeperator.length + 1 + imgFileExt.length)) {
+			return null;
+		}
+		
+		var codeStartIndex = imgFileName.lastIndexOf(paramSeperator);
+
+		if (codeStartIndex >= 0 && codeStartIndex < (imgFileName.length - imgFileExt.length - 1)) {
+			code = imgFileName.substring((codeStartIndex + 1), (imgFileName.length - imgFileExt.length));	
+		} else {
+			return null;
+		}
+	}
+
+	return code;
+}
+
+function pustToSelectablePicSlots(unselectedImg) {
+	for (var i = 0; i < selectablePicSlots.length; i++) {
+		if (selectablePicSlots[i].childNodes.length == 0) {
+			selectablePicSlots[i].appendChild(unselectedImg);
+			return;
+		}
+	}
+}
+		
+function pustToSelectedPicSlots(selectedImg) {
+	for (var i = 0; i < selectedPicSlots.length; i++) {
+		if (selectedPicSlots[i].childNodes.length == 0) {
+			selectedPicSlots[i].appendChild(selectedImg);
+			return;
+		}
+	}
+}
+		
+function pushAllToSelectablePicSlots() {
+	// push all selectedPics back to SelectablePicSlots
+	for (var i = 0; i < selectedPicSlots.length; i++) {
+		if (selectedPicSlots[i].childNodes.length == 1) {
+			var selectedImg = selectedPicSlots[i].firstChild;
+			pustToSelectablePicSlots(selectedImg);
+		}
+	}
+}
+		
+function picSelected(selectedPic) {
+
+	
+	
+	// if reloading flag is true
+	if (keyboardReloading) {
+		return;
+	}
+	
+	var enclosingTable = selectedPic.parentNode.parentNode.parentNode.parentNode.parentNode;
+	if (enclosingTable.id == 'selectablePicSlotTable') {
+		pustToSelectedPicSlots(selectedPic);
+	} else if (enclosingTable.id == 'selectedPicSlotTable') {
+		pustToSelectablePicSlots(selectedPic);
+	}
+}
+		
+function initSelectablePicSlots() {
+
+	selectablePicSlots.push(document.getElementById('selectablePicSlot1'));
+
+	selectablePicSlots.push(document.getElementById('selectablePicSlot2'));
+
+	selectablePicSlots.push(document.getElementById('selectablePicSlot3'));
+
+	selectablePicSlots.push(document.getElementById('selectablePicSlot4'));
+
+	selectablePicSlots.push(document.getElementById('selectablePicSlot5'));
+
+	selectablePicSlots.push(document.getElementById('selectablePicSlot6'));
+
+	selectablePicSlots.push(document.getElementById('selectablePicSlot7'));
+
+	selectablePicSlots.push(document.getElementById('selectablePicSlot8'));
+
+	selectablePicSlots.push(document.getElementById('selectablePicSlot9'));
+
+	selectablePicSlots.push(document.getElementById('selectablePicSlot10'));
+				
+
+}
+		
+function initSelectedPicSlots() {
+
+	selectedPicSlots.push(document.getElementById('selectedPicSlot1'));
+
+	selectedPicSlots.push(document.getElementById('selectedPicSlot2'));
+
+	selectedPicSlots.push(document.getElementById('selectedPicSlot3'));
+
+	selectedPicSlots.push(document.getElementById('selectedPicSlot4'));
+
+}
+		
+function initKeyboardVars() {
+	initSelectablePicSlots();
+	initSelectedPicSlots();
+	keyboardReloading = false; // assume successfully loaded by HTML
+}
+
+function captureSelectedPics() {
+	var selectedPicsAsText = '';
+	var emptySlotCount = 0;
+	
+	for (var i = 0; i < selectedPicSlots.length; i++) {
+		var seperator = null;
+		var picAsText = null;
+		
+		if (selectedPicSlots[i].childNodes.length == 1) {
+			var selectedImg = selectedPicSlots[i].firstChild;
+			picAsText = extractPicCodeFromUrl(selectedImg.src);
+		} else {
+			emptySlotCount++;
+		}
+
+		if (picAsText == null) {
+			picAsText = '*';
+		}
+
+		if (i > 0) {
+			seperator = ',';
+		} else {
+			seperator = '';
+		}
+
+		selectedPicsAsText = selectedPicsAsText + seperator + picAsText;
+	}  
+
+	if (emptySlotCount == selectedPicSlots.length) {
+		selectedPicsAsText = '';
+	}
+
+	var captchaAnswer = document.getElementById('captchaAnswer');
+	captchaAnswer.value = selectedPicsAsText;
+
+}
+
+function createXMLHttpRequest() {
+	var xmlHttp;
+	try
+  	{  // Firefox, Opera 8.0+, Safari
+  		xmlHttp=new XMLHttpRequest();
+  	}catch (e)
+  	{
+  		// Internet Explorer
+  		try
+    	{
+    		xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+    	} catch (e)
+    	{
+    		try
+    		{
+    			xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+    		} catch (e)
+    		{
+    			xmlHttp = null;
+    		}
+    	}
+    }
+
+    return xmlHttp;
+}
+
+function isRefreshCaptchaResponseValid(responseText) {
+	if (responseText == null) {
+		return false;
+	}
+
+	var expectedResponsePrefix = keyboardReloadTsSubmitted + ',' + keyboardReloadCode1Submitted + ',' + keyboardReloadCode2Submitted + ',';  
+	if (responseText.length > expectedResponsePrefix.length &&
+		responseText.substring(0, expectedResponsePrefix.length) == expectedResponsePrefix) {
+
+      	var responseValues = responseText.split(',');
+      	var expectedValueCount = selectablePicSlots.length + 4; // old ts, code1, code2, new ts		
+
+      	if (responseValues.length == expectedValueCount) {
+			return true; 
+	    } else {
+			return false;
+		}
+	} else {
+		return false;
+	}
+}
+
+function resetSubmittedReloadParams() {
+	keyboardReloadTsSubmitted = 'N/A';
+	keyboardReloadCode1Submitted = 'N/A';
+	keyboardReloadCode2Submitted = 'N/A';
+}
+
+function sendRefreshCaptchaRequest() {
+	var xmlHttp = createXMLHttpRequest();
+	
+    if (xmlHttp != null) {
+	    
+	  	xmlHttp.onreadystatechange=function() {
+
+		    if (xmlHttp.readyState == 4) {
+
+			    if (xmlHttp.status == 200) {
+	      		
+		      		var responseText = xmlHttp.responseText;
+		      		var isResponseValid = isRefreshCaptchaResponseValid(responseText);
+
+		      		resetSubmittedReloadParams(); // reset variables after performing response validation
+
+		      		if (isResponseValid) {
+		      			// resetSubmittedReloadParams() ensure there are (4 + selectablePicSlots.length) elements
+		      			var responseValues = responseText.split(',');
+			      		var ts = responseValues[3]; // the 4th
+
+						var captchaUrlBase = '/lcsd/leisurelink/cimg/'
+						var keyUrlBase = '/lcsd/leisurelink/kimg/';
+						var imgFileExt = '.png';
+
+						var captchaUrl = captchaUrlBase + ts + imgFileExt; 
+
+						// the 5th to the end
+						var keyUrls = [];
+						for (var i = 4; i < responseValues.length; i++) {
+							var keyUrl = keyUrlBase + ts + '_' + responseValues[i] + imgFileExt;
+							keyUrls.push(keyUrl);  
+						}
+
+						document.getElementById('loginCaptchaImg').src = captchaUrl;
+						for (var i = 0; i < selectablePicSlots.length; i++) {
+							var selectableImg = selectablePicSlots[i].firstChild;
+							selectableImg.src = keyUrls[i];  // keyUrls.length same as selectablePicSlots.length 
+						}									
+			      	} else {
+			      		reloadJSP();
+				    }
+		  		} else {
+		  			reloadJSP();
+			  	} // if-else (xmlHttp.status == 200)
+			} // if (xmlHttp.readyState == 4)
+	    }
+	  
+		var refreshLoginCaptchaURL = '/lcsd/leisurelink/refreshLoginCaptcha';
+		xmlHttp.open('POST', refreshLoginCaptchaURL, true);
+		xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+		var paramTs = extractTsFromCaptchaUrl(document.getElementById('loginCaptchaImg').src);
+
+		var keyImg1 = selectablePicSlots[0].firstChild; // after pushing back
+		var paramCode1 = extractPicCodeFromUrl(keyImg1.src);
+
+		var keyImg2 = selectablePicSlots[selectablePicSlots.length - 1].firstChild; // after pushing back
+		var paramCode2 = extractPicCodeFromUrl(keyImg2.src);
+		
+		keyboardReloadTsSubmitted = paramTs;
+		keyboardReloadCode1Submitted = paramCode1;
+		keyboardReloadCode2Submitted = paramCode2;
+		
+		var postParams = 'ts=' + paramTs + '&code1=' + paramCode1 + '&code2=' + paramCode2;
+		
+		xmlHttp.send(postParams);				
+	} else {
+		reloadJSP();
+	}
+}
+
+function onLoadCaptchaImage(img) {
+	img.style.visibility = 'visible';
+	captchaImgLoaded = true;						
+}
+
+function onLoadKeyImage(img) {
+	img.style.visibility = 'visible';
+	keyboardImgsLoaded.push(img.id);
+}
+
+function enableRegenBtn() {
+	var loginCaptchaRegenBtn = document.getElementById('loginCaptchaRegenBtn');
+	loginCaptchaRegenBtn.disabled = false;
+	
+
+	var loginCaptchaRegenBtnDiv = document.getElementById('loginCaptchaRegenBtnDiv');
+	loginCaptchaRegenBtnDiv.style.display = '';
+
+	
+}
+
+function disableRegenBtn() {
+	var loginCaptchaRegenBtn = document.getElementById('loginCaptchaRegenBtn');
+	loginCaptchaRegenBtn.disabled = true;
+	
+
+	var loginCaptchaRegenBtnDiv = document.getElementById('loginCaptchaRegenBtnDiv');
+	loginCaptchaRegenBtnDiv.style.display = 'none';
+
+	
+}
+
+function enableCaptchaKeyboard() {
+
+	// force visible even those onload method will show the image again
+	document.getElementById('loginCaptchaImg').style.visibility = 'visible';
+	try {
+		for (var i = 0; i < selectablePicSlots.length; i++) {
+			if (selectablePicSlots[i].childNodes.length == 1) {
+				var selectableImg = selectablePicSlots[i].firstChild;
+				selectableImg.style.visibility = 'visible';
+			}
+		}
+	} catch (err) {
+	    // suppress error when make all image visible
+	}
+	
+	enableRegenBtn();
+	
+	keyboardReloading = false;		
+}
+
+function checkCaptchaKeyboardLoaded() {
+	keyboardReloadCheckStatusCount++;
+				
+	if (keyboardImgsLoaded.length == selectablePicSlots.length && captchaImgLoaded) {
+		enableCaptchaKeyboard();
+	} else {
+		
+		if (keyboardReloadCheckStatusCount <= 117) {
+			setTimeout('checkCaptchaKeyboardLoaded()', 250);
+		} else {
+			enableCaptchaKeyboard();
+		}
+	}
+}
+
+function regenerateCaptcha() {
+	
+	// reset image loading indicators
+	keyboardReloading = true;
+	keyboardReloadCheckStatusCount = 0;
+	captchaImgLoaded = false;
+	keyboardImgsLoaded = [];
+	resetSubmittedReloadParams();
+	
+	// disable regen button
+	disableRegenBtn();
+	
+	pushAllToSelectablePicSlots();
+	
+	document.getElementById('loginCaptchaImg').style.visibility = 'hidden';
+	// assume push back success
+	for (var i = 0; i < selectablePicSlots.length; i++) {
+		var selectableImg = selectablePicSlots[i].firstChild;
+		selectableImg.style.visibility = 'hidden';
+	}
+
+	// launch check status
+	setTimeout('checkCaptchaKeyboardLoaded()', 750); // check image reload after 0.75 sec
+	
+	// send server request
+	sendRefreshCaptchaRequest();
+}
+				
+</script>
+
+
+		<div class="rowseperator">
+			<div class="seperator">&nbsp;</div>
+		</div>		
+		
+		<div class="row">
+
+			<input id="captchaAnswer" type="hidden" name="captchaAnswer">
+
+			<div class="loginCaptchaRow">驗証碼 </div>
+			<div class="clear"></div>								
+			<div class="loginCaptchaRow">
+				<div class="td_captchaPicSlot loginCaptchaRowElement"><img id="loginCaptchaImg" src="./1511648294256.png" onload="onLoadCaptchaImage(this)" style="visibility: visible;"></div>
+				<div id="loginCaptchaRegenBtnDiv" class="loginCaptchaRowElement">
+					<input id="loginCaptchaRegenBtn" type="button" onclick="regenerateCaptcha()" onblur="this.className=&#39;actionBtnSmallAlignTop&#39;;" onmouseout="this.className=&#39;actionBtnSmallAlignTop&#39;;" onfocus="this.className=&#39;actionBtnSmallAlignTop_hover&#39;;" onmouseover="this.className=&#39;actionBtnSmallAlignTop_hover&#39;;" value=" 重新繪畫  " class="actionBtnSmallAlignTop">
+				</div>
+				
+			</div>
+			<div class="clear"></div>				
+			<div class="loginCaptchaRow">請選取以下的圖片去配對驗證碼(區分大小寫): </div>
+			<div class="clear"></div>
+			<div class="keyboard">
+				<table id="selectablePicSlotTable">
+					<tbody>
+						<tr height="54px">
+			
+							<td width="54px"><div id="selectablePicSlot1" class="td_picSlot"><img id="loginCaptchaKeyImg1" src="./1511648294256_RWKKF.png" onclick="picSelected(this)" onload="onLoadKeyImage(this)" style="visibility: visible;"></div></td>
+			
+							<td width="54px"><div id="selectablePicSlot2" class="td_picSlot"><img id="loginCaptchaKeyImg2" src="./1511648294256_UTAMQ.png" onclick="picSelected(this)" onload="onLoadKeyImage(this)" style="visibility: visible;"></div></td>
+			
+							<td width="54px"><div id="selectablePicSlot3" class="td_picSlot"><img id="loginCaptchaKeyImg3" src="./1511648294256_GCXPP.png" onclick="picSelected(this)" onload="onLoadKeyImage(this)" style="visibility: visible;"></div></td>
+			
+							<td width="54px"><div id="selectablePicSlot4" class="td_picSlot"><img id="loginCaptchaKeyImg4" src="./1511648294256_V8JJR.png" onclick="picSelected(this)" onload="onLoadKeyImage(this)" style="visibility: visible;"></div></td>
+			
+							<td width="54px"><div id="selectablePicSlot5" class="td_picSlot"><img id="loginCaptchaKeyImg5" src="./1511648294256_QGBJ9.png" onclick="picSelected(this)" onload="onLoadKeyImage(this)" style="visibility: visible;"></div></td>
+			
+						</tr>
+						<tr height="54px">
+			
+							<td width="54px"><div id="selectablePicSlot6" class="td_picSlot"><img id="loginCaptchaKeyImg6" src="./1511648294256_7SDSY.png" onclick="picSelected(this)" onload="onLoadKeyImage(this)" style="visibility: visible;"></div></td>
+			
+							<td width="54px"><div id="selectablePicSlot7" class="td_picSlot"><img id="loginCaptchaKeyImg7" src="./1511648294256_7F3CF.png" onclick="picSelected(this)" onload="onLoadKeyImage(this)" style="visibility: visible;"></div></td>
+			
+							<td width="54px"><div id="selectablePicSlot8" class="td_picSlot"><img id="loginCaptchaKeyImg8" src="./1511648294256_LQ340.png" onclick="picSelected(this)" onload="onLoadKeyImage(this)" style="visibility: visible;"></div></td>
+			
+							<td width="54px"><div id="selectablePicSlot9" class="td_picSlot"><img id="loginCaptchaKeyImg9" src="./1511648294256_5YM3X.png" onclick="picSelected(this)" onload="onLoadKeyImage(this)" style="visibility: visible;"></div></td>
+			
+							<td width="54px"><div id="selectablePicSlot10" class="td_picSlot"><img id="loginCaptchaKeyImg10" src="./1511648294256_RD2K2.png" onclick="picSelected(this)" onload="onLoadKeyImage(this)" style="visibility: visible;"></div></td>
+			
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="clear"></div>
+			<div class="loginCaptchaRow">你已選取以下圖片(要取消選取，請按其圖片) :</div>
+			<div class="clear"></div>
+			<div class="keyboard">
+				<table id="selectedPicSlotTable">
+					<tbody>
+						<tr height="54px">
+										
+							<td width="54px"><div id="selectedPicSlot1" class="td_picSlot"></div></td>
+										
+							<td width="54px"><div id="selectedPicSlot2" class="td_picSlot"></div></td>
+										
+							<td width="54px"><div id="selectedPicSlot3" class="td_picSlot"></div></td>
+										
+							<td width="54px"><div id="selectedPicSlot4" class="td_picSlot"></div></td>
+				
+						</tr>
+					</tbody>						
+				</table>
+			</div>
+			
+			<script language="JavaScript">
+				initKeyboardVars();
+			</script>
+		</div>
+			
+		
+		
+    </div>		
+</div>		
+	
+	你提供的資料，只作康樂及文化事務署舉辦的康體活動報名事宜、統計、日後聯絡及活動意見調查之用，亦只限獲本署授權人員方可查閱有關資料作前述目的之用。遞交申請表後，如欲更正或查詢個人資料，請與接受報名的分區櫃檯職員聯絡。<br>					
+	<div class="cell">
+		<div id="buttonPanel" class="contenttable_button">
+			<div class="btnbar">	
+				<input class="actionBtn" value="清除" type="button" onmouseover="this.className=&#39;actionBtn_hover&#39;;" onfocus="this.className=&#39;actionBtn_hover&#39;;" onmouseout="this.className=&#39;actionBtn&#39;;" onclick="resetForm(this.form);return false;" onblur="this.className=&#39;actionBtn&#39;;"><input class="actionBtnSearch" type="button" value="搜尋康樂活動編號" onmouseover="this.className=&#39;actionBtnSearch_hover&#39;;" onmouseout="this.className=&#39;actionBtnSearch&#39;;" onfocus="this.className=&#39;actionBtnSearch_hover&#39;;" onblur="this.className=&#39;actionBtnSearch&#39;;" onclick="gotoActivitySearch(this.form);"><input class="actionBtnContinue" value="繼續" onmouseover="this.className=&#39;actionBtnContinue_hover&#39;;" onfocus="this.className=&#39;actionBtnContinue_hover&#39;;" onmouseout="this.className=&#39;actionBtnContinue&#39;;" onblur="this.className=&#39;actionBtnContinue&#39;;" onclick="onSubmit();" type="submit">	
+			</div>
+		</div>
+	</div>
+		
+		<div class="formBox" id="resultBox" style="display:none">
+		  <div class="formBox"><br></div>
+		  <div class="formSubTitle">你想參與的活動名額已滿，以下是一些建議給你的活動。</div>
+		  <div id="resultPanel" class="TablePanel">
+		  </div>
+		</div>
+		
+		
+						</form>
+
+
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cell">
+	<div class="contenttable">
+	    <div class="title">
+			其他康體通服務:
+		</div>
+	    <div id="row">
+	    	<div id="flowLinkPanel">
+				<input class="actionBtnSmall" value=" 租訂康樂設施(普及版) " onmouseover="this.className=&#39;actionBtnSmall_hover&#39;;" onfocus="this.className=&#39;actionBtnSmall_hover&#39;;" onmouseout="this.className=&#39;actionBtnSmall&#39;;" onblur="this.className=&#39;actionBtnSmall&#39;;" onclick="window.location=&#39;/lcsd/leisurelink/facilityBooking/login/login.jsp&#39;;return false;" type="button">									
+				<br>
+				<input class="actionBtnSmall" value=" 租訂康樂設施(個人版) " onmouseover="this.className=&#39;actionBtnSmall_hover&#39;;" onfocus="this.className=&#39;actionBtnSmall_hover&#39;;" onmouseout="this.className=&#39;actionBtnSmall&#39;;" onblur="this.className=&#39;actionBtnSmall&#39;;" onclick="window.location=&#39;/lcsd/leisurelink/personalFacilityBooking/login/login.jsp&#39;;return false;" type="button">
+				<br>							
+				
+				<input class="actionBtnSmall" value="查詢在11天內的康樂設施租訂情況" onmouseover="this.className=&#39;actionBtnSmall_hover&#39;;" onfocus="this.className=&#39;actionBtnSmall_hover&#39;;" onmouseout="this.className=&#39;actionBtnSmall&#39;;" onblur="this.className=&#39;actionBtnSmall&#39;;" onclick="window.location=&#39;/lcsd/leisurelink/facilityEnquiry/enquiryLogin.do&#39;;return false;" type="button">
+				<br>
+				<input class="actionBtnSmall" value="查詢過去30天的交易狀況 / 
+重印確認通知書 / 
+康體通用戶取消已租訂的設施 / 
+查詢「沒有取場」違規記錄" onmouseover="this.className=&#39;actionBtnSmall_hover&#39;;" onfocus="this.className=&#39;actionBtnSmall_hover&#39;;" onmouseout="this.className=&#39;actionBtnSmall&#39;;" onblur="this.className=&#39;actionBtnSmall&#39;;" onclick="window.location=&#39;/lcsd/leisurelink/txEnquiry/login/login.jsp&#39;;return false;" type="button">	
+				<br>
+			</div>				
+		</div>
+	</div>
+</div>
+<div class="emptySmall">&nbsp;</div>
+	
+					</div>
+				</div>
+			</div>
+			<div id="footerPanel" class="screenOnly">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<div id="leftMenuPanel">
+			       	<div class="footerlinks">						
+							<a class="footer" href="http://www.gov.hk/tc/about/aboutus.htm" target="_new">關於「香港政府一站通」</a>
+							<a class="footer" href="http://www.gov.hk/tc/about/linkpolicy/index.htm" target="_new">連結到「香港政府一站通」</a>
+							<a class="footer" href="http://www.gov.hk/tc/about/sitemap.htm" target="_new">網頁指南</a>
+							<a class="footer" href="http://www.gov.hk/tc/about/copyright.htm" target="_new">版權告示</a>
+							<a class="footer" href="http://www.gov.hk/tc/about/privacy.htm" target="_new">私隱政策</a>
+							<a class="footer" href="http://www.gov.hk/tc/about/disclaimer.htm" target="_new">免責聲明</a>				
+					</div>
+				</div>
+				<div id="contentPanel">	
+					<img alt="亞洲國際都會" src="./logo_footer.gif">
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+	<script language="JavaScript">
+		if(defaultFocus){
+			setDefaultFocus();
+		}
+	</script>
+
+
+<iframe src="javascript:&#39;&#39;" id="hk.gov.lcsd.leisurelink.ActivityEnrollmentLogin" tabindex="-1" style="position: absolute; width: 0px; height: 0px; border: none;" src="./saved_resource(1).html"></iframe></body></html>

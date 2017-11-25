@@ -1,0 +1,874 @@
+DIV.hidden {
+	DISPLAY: none; PADDING-LEFT: 65px; FLOAT: left; WIDTH: 400px
+}
+
+DIV.hidden_display {
+		LEFT: 0px; OVERFLOW: hidden; WIDTH: 1px; POSITION: absolute; TOP: -500px; HEIGHT: 1px
+}
+.hiddenLabel {
+	DISPLAY: none
+}
+
+DIV.Hoz_separator {
+	FLOAT: left; MARGIN: 0px; 
+	WIDTH: 100%; HEIGHT: 10px; BACKGROUND-COLOR: #ffffff; 
+	PADDING-TOP: 0px; PADDING-BOTTOM: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px;  
+	BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+
+div.contenttable DIV.formBox {
+	padding-left: 0px; padding-right:0px; padding-top: 0px; padding-bottom: 10px;
+}
+
+DIV.formBoxHeader {
+	CLEAR: both; DISPLAY: block; WIDTH: 100%;
+	PADDING-TOP: 5px; PADDING-BOTTOM: 5px; 
+	TEXT-ALIGN: center; FLOAT: none; 
+}
+
+DIV.formBoxWithPadding {
+	PADDING-TOP: 7px; PADDING-BOTTOM: 10px; 
+}
+
+DIV.formBoxWithTopBorder {
+	CLEAR: both; DISPLAY: block; WIDTH: 100%;
+	BORDER-TOP: #dedebf 1px solid; 
+}
+
+DIV.formBoxWithBottomBorder {
+	CLEAR: both; DISPLAY: block; WIDTH: 100%; 
+	BORDER-BOTTOM: #dedebf 1px solid;
+}
+
+div.contenttable DIV.formFieldPanelColor {
+	FLOAT: left; WIDTH: 100%; BACKGROUND-COLOR: #ffffff; vertical-align: middle;
+	margin-bottom:2px;
+}
+
+DIV.formFieldSubPanelColor {
+	FLOAT: right; WIDTH: 90%; BACKGROUND-COLOR: #f0f0f0; vertical-align: middle;
+	margin-bottom:2px;
+}
+
+DIV.formFieldPanelColor1 {
+	FLOAT: left; WIDTH: 100%; BACKGROUND-COLOR: #fcf5e6; vertical-align: middle;
+}
+
+DIV.row DIV.formFieldPanelColor2 {
+	FLOAT: left; WIDTH: 100%; BACKGROUND-COLOR: #f0f0f0
+}
+
+DIV.formFieldMandatoryArea {
+	PADDING-LEFT: 5px; FLOAT: left; WIDTH: 10px; COLOR: red; PADDING-TOP: 5px; TEXT-ALIGN: CENTER;
+}
+
+DIV.TablePanel {
+	width: 100%;
+	overflow: auto;
+}
+
+SPAN.mandatoryIndicator {
+	FONT-SIZE: 1.15em; FONT-WEIGHT: normal; COLOR: red; FONT-FAMILY: Verdana;
+}
+
+DIV.formFieldHeading {
+	WIDTH:80%; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px;  
+}
+
+DIV.formFieldHeadingNo {
+	PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px;  
+}
+
+DIV.formFieldLabel {
+	FLOAT: left; WIDTH: 15%; TEXT-ALIGN: right; MARGIN: 5px;
+}
+
+DIV.formFieldLabel20 {
+	float:left; width:150px;
+	text-align:right;
+	padding-right:15px;
+}
+
+DIV.formFieldLabel25 {
+	float:left; width:200px;
+	text-align:right;
+	padding-right:15px;
+}
+
+DIV.formIndent {
+	PADDING-LEFT: 10px; FLOAT: left; WIDTH: 5%; PADDING-TOP: 5px; TEXT-ALIGN: right
+}
+
+/*
+DIV.formFieldLabel {
+	PADDING-LEFT: 10px; FLOAT: left; WIDTH: 100%; PADDING-TOP: 5px
+}
+*/
+
+DIV.formSelectItemName {
+	PADDING-RIGHT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px
+}
+
+DIV.formSelectCheckbox {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+
+DIV.formFieldInputComponent {
+	FLOAT: left; WIDTH: 76%; MARGIN: 5px
+}
+DIV.formFieldInputComponent75 {
+	FLOAT: left; WIDTH: 71%; MARGIN: 5px
+}
+DIV.formFieldInputComponent70 {
+	FLOAT: left; WIDTH: 66%; MARGIN: 5px
+}
+DIV.formFieldInputComponent65 {
+    padding:3px 3px 3px 3px;
+	text-align:left;
+    overflow-x: auto;
+ 	overflow-y: none;
+}
+DIV.formFieldInputComponent60 {
+	FLOAT: left; WIDTH: 56%; MARGIN: 5px
+}
+DIV.formFieldInputComponent55 {
+	FLOAT: left; WIDTH: 51%; MARGIN: 5px
+}
+DIV.formFieldInputComponent50 {
+	FLOAT: left; WIDTH: 46%; MARGIN: 5px
+}
+DIV.formFieldInputComponent45 {
+	FLOAT: left; WIDTH: 41%; MARGIN: 5px
+}
+DIV.formFieldInputComponent40 {
+	FLOAT: left; WIDTH: 36%; MARGIN: 5px
+}
+DIV.formFieldInputComponent35 {
+	FLOAT: left; WIDTH: 31%; MARGIN: 5px
+}
+DIV.formFieldInputComponent30 {
+	FLOAT: left; WIDTH: 26%; MARGIN: 8px
+}
+
+DIV.formFieldInputComponent20 {
+	FLOAT: left; WIDTH: 16%; MARGIN: 5px
+}
+DIV.formFieldInputComponent10 {
+	FLOAT: left; WIDTH: 6%; MARGIN: 5px
+}
+
+/* Specialized for addressInfoPanel in Normal/Personal Facility Booking*/
+DIV.addressInfoPanel{
+	width:auto; max-width:37%;
+}
+
+/* Specialized for consectivePanel in Personal Facility Booking*/
+DIV.consectivePanel{
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 79%; PADDING-TOP: 5px
+}
+
+DIV.buttonPanel {
+	WIDTH: 100%; FLOAT: left; TEXT-ALIGN: center; BACKGROUND-COLOR: #f0f0f0;
+	PADDING-TOP: 3px; PADDING-BOTTOM: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px;
+}
+DIV.buttonFloat {
+	MARGIN-RIGHT: 5px; MARGIN-LEFT: 5px; FLOAT: right
+}
+
+
+DIV.pageNoPanel {
+	WIDTH: 100%; FLOAT: right; PADDING-TOP: 2px; TEXT-ALIGN: center
+}
+DIV.pageNoLabel {
+	PADDING-RIGHT: 2px; FONT-WEIGHT: normal; FLOAT: right; WIDTH: 150px; PADDING-TOP: 5px; TEXT-ALIGN: right
+}
+DIV.surveyformFieldInputComponent {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 200px; PADDING-TOP: 5px
+}
+DIV.surveyformFieldLabel {
+	PADDING-LEFT: 10px; FONT-WEIGHT: normal; FLOAT: left; WIDTH: 140px; PADDING-TOP: 5px
+}
+DIV.surveyformAnswerLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 1em; FLOAT: left
+}
+DIV.surveyTextArea {
+	PADDING-LEFT: 25px; WIDTH: 430px
+}
+DIV.surveyformFieldPanelColor2 {
+	FLOAT: left; WIDTH: 100%; BACKGROUND-COLOR: #fcf5e6
+}
+
+div.formPuaInputValue { 
+	font-family:MingLiU,PMingLiU,Arial;
+	font-size:30px;
+	float:left;
+	padding:5px;
+}
+
+div.formPuaInputChar {	
+	font-family:MingLiU,PMingLiU,Arial;
+	font-size:30px;
+	float:left;
+	padding:5px;
+}
+
+div.formPuaSysChar {	
+	font-family:MingLiU,PMingLiU,Arial;
+	font-size:30px;
+	float:right;
+	padding:5px;
+}
+
+DIV.repeatableBlank {
+	FLOAT: left; WIDTH: 99%; HEIGHT: 40px;
+	min-width: 20px;	
+}
+
+div.formSubTitle { 
+	color: #1a1a1a;
+	font-weight:bold;
+	background-color: #E8E3CD; padding-left: 10px; padding-top: 7px; padding-bottom: 10px;
+}
+
+div.contenttable DIV.calendarArea{
+	position:absolute;
+	z-index:2;
+	right:50px; 
+}
+
+div.contenttable DIV.inputArea{
+	position:relative;
+	z-index:1;
+}
+
+.calendarNormalDay{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR:#000000;
+	text-decoration: underline;
+	border-width:0px;
+	text-align:center;
+	cursor:pointer
+}
+
+.calendarHolidayDay{
+	BACKGROUND-COLOR: #ffffff;
+	COLOR:#ff0000;
+	text-decoration: underline;
+	border-width:0px;
+	text-align:center;	
+	cursor:pointer 
+}
+
+DIV.testPositionBox {
+	CLEAR: both;
+	DISPLAY: block;
+	WIDTH: 80%;
+	POSITION: relative;
+	LEFT: 10%
+}
+
+DIV.testFormBoxOption {
+	float: LEFT; width: 5%
+}
+
+DIV.testFormBoxTitle {
+	float: LEFT; width: 95%
+}
+
+DIV.testFormBoxLabel {
+	float: LEFT; width: 30%; text-align:right; position:relative; top:2px;
+}
+
+DIV.testFormBoxInput {
+	float: LEFT; width: 60%
+}
+
+DIV.testFormFieldColumnHeader05 {
+	float: LEFT; width: 5%; padding:5px;
+}
+
+DIV.testFormFieldColumnData05 {
+	float: LEFT; width: 5%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader08 {
+	float: LEFT; width: 8%; padding:5px;
+}
+	
+DIV.testFormFieldColumnData08 {
+	float: LEFT; width: 8%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader10 {
+	float: LEFT; width: 10%; padding:5px;
+}
+
+DIV.testFormFieldColumnData10 {
+	float: LEFT; width: 10%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader12 {
+	float: LEFT; width: 12%; padding:5px;
+}
+
+DIV.testFormFieldColumnData12 {
+	float: LEFT; width: 12%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader15 {
+	float: LEFT; width: 15%; padding:5px;
+}
+
+DIV.testFormFieldColumnData15 {
+	float: LEFT; width: 15%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader20 {
+	float: LEFT; width: 20%; padding:5px;
+}
+
+DIV.testFormFieldColumnData20 {
+	float: LEFT; width: 20%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader25 {
+	float: LEFT; width: 25%; padding:5px;
+}
+
+DIV.testFormFieldColumnData25 {
+	float: LEFT; width: 25%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader30 {
+	float: LEFT; width: 30%; padding:5px;
+}
+
+DIV.testFormFieldColumnData30 {
+	float: LEFT; width: 30%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader40 {
+	float: LEFT; width: 40%; padding:5px;
+}
+
+DIV.testFormFieldColumnData40 {
+	float: LEFT; width: 40%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader50 {
+	float: LEFT; width: 50%; padding:5px;
+}
+
+DIV.testFormFieldColumnData50 {
+	float: LEFT; width: 50%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader60 {
+	float: LEFT; width: 60%; padding:5px;
+}
+
+DIV.testFormFieldColumnData60 {
+	float: LEFT; width: 60%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader70 {
+	float: LEFT; width: 70%; padding:5px;
+}
+
+DIV.testFormFieldColumnData70 {
+	float: LEFT; width: 70%; padding:5px;
+}
+
+DIV.testFormFieldColumnHeader100 {
+	float: LEFT; width: 100%; padding:5px;
+}
+
+DIV.testFormFieldColumnData100 {
+	float: LEFT; width: 100%; padding:5px;
+}
+
+TEXTAREA {
+	OVERFLOW: auto; FLOAT: left;
+}
+
+/* Par-Q and YOU */
+DIV.parQLabel {
+	PADDING-LEFT: 10px; FLOAT: left; WIDTH: 70%; PADDING-TOP: 2px; TEXT-ALIGN: left;
+}
+
+DIV.parQInputComponent {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: right; PADDING-BOTTOM: 2px; WIDTH: 120px; PADDING-TOP: 2px;
+}
+
+/* Acivity Enrollment Confirm Group box */
+div.row div.activityGroupNum {
+	FLOAT: left; WIDTH: 5%; TEXT-ALIGN:left;
+}
+
+div.row div.activityGroupName {
+	FLOAT: left; WIDTH: 23%; TEXT-ALIGN:left;
+}
+
+div.row div.activityGroupID {
+	FLOAT: left; WIDTH: 22%; TEXT-ALIGN:left;
+}
+
+div.row div.activityGroupDOB {
+	FLOAT: left; WIDTH: 26%; TEXT-ALIGN:left;
+}
+
+div.row div.activityGroupSex {
+	FLOAT: left; WIDTH: 18%; TEXT-ALIGN:left;
+}
+/* Transaction enquiry */
+
+div.txField {
+	FLOAT: left; WIDTH: 27%; TEXT-ALIGN:left;
+}
+
+div.txTo {
+	FLOAT: left; WIDTH: 6%; TEXT-ALIGN:middle;
+}
+
+
+TABLE {
+	FONT-SIZE: 90%; COLOR: #000000;
+}
+
+/* Result tables */
+td.resultTable-Header {
+	background-color: #E3E3E3;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	text-align: center;
+}
+
+TABLE.resultTable {
+	background-color: #F2F2F2;
+}
+
+TABLE.resultTable TD {
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	text-align: center;
+}
+
+
+div.timeslotCell{
+	text-align:center;
+	font-size:1em;
+	vertical-align:middle;
+}
+
+.timeslotCellPeak{
+	text-align:center;
+	font-size:1em;
+	background-color:#ffffcc;
+	vertical-align:middle;
+}
+
+.timeslotCellNonPeak{
+	text-align:center;
+	font-size:1em;
+	background-color:#ccffcc;
+	vertical-align:middle;
+}
+.timeslotCellNotAvailable {
+	text-align:center;
+	font-size:1em;
+	background-color:silver;
+	vertical-align:middle;
+}
+
+.timeslotTitle{
+	width:40%;
+	float:left;
+	font-size:1em;	
+}
+
+.loading{
+	width:100%;
+	height:100%;
+	background-color:#333333;
+	z-index:10;
+	position:absolute;
+	left:0px;
+	top:0px;	
+	filter:alpha(Opacity=50);
+}
+
+/* override the onlineService.css */
+ol, ul { margin-left:15px;  padding-left:15px;margin-top:2px;  padding-top:2px;margin-bottom:2px;  padding-bottom:2px;}
+
+LI {
+	font-size:1em; 	 
+	line-height:1.15em; 
+	padding:5px 5px 5px 5px; 
+	list-style-type:decimal;
+	text-indent:0;
+}
+
+.noSpaceOLLI LI {
+	font-size:1em; 	 
+	line-height:1.15em; 
+	padding:1px 1px 1px 1px; 
+	list-style-type:decimal;
+	text-indent:0;
+}
+
+.alignTop{
+	margin-top:  0px;
+	vertical-align:top
+}
+
+
+div.formPuaHeadingInputValue { 
+	width:35%;
+	float:left;
+	padding:5px;
+}
+
+div.formPuaHeadingInputChar {	
+	width:28%;
+	float:left;
+	padding:5px;
+}
+
+div.formPuaHeadingSysChar {	
+	width:28%;
+	float:right;
+	padding:5px;
+}
+
+div.formPuaInputValue { 
+	font-family:MingLiU,PMingLiU,Arial;
+	font-size:13px;
+	width:35%;
+	float:left;
+	padding:5px;
+}
+
+div.formPuaInputChar {	
+	font-family:MingLiU,PMingLiU,Arial;
+	font-size:13px;
+	width:28%;
+	float:left;
+	padding:5px;
+}
+
+div.formPuaSysChar {	
+	font-family:MingLiU,PMingLiU,Arial;
+	font-size:13px;
+	width:96%;
+	float:left;
+	padding:5px;
+}
+
+div.formPuaInputValueRow2 {	
+	font-family:MingLiU,PMingLiU,Arial;
+	font-size:13px;
+	width:35%;
+	float:left;
+	padding:5px;
+}
+
+div.formPuaInputCharRow2 {	
+	font-family:MingLiU,PMingLiU,Arial;
+	font-size:13px;
+	width:97%;
+	float:left;
+	padding:5px;
+	border-top:solid #DEDEBF 1px;
+}
+
+div.formPuaSysCharRow2 {	
+	font-family:MingLiU,PMingLiU,Arial;
+	font-size:13px;
+	width:97%;
+	float:right;
+	padding:5px;
+	border-top:solid #DEDEBF 1px;
+}
+/*add by Iven for new UI format Begin*/
+div.cell {
+	margin-bottom: 30px;
+	background-color: white;
+}
+
+div.contenttable {
+	border: 1px #CCCCCC solid;
+	padding:0px;
+}
+
+div.contenttable div.row {
+	padding-left: 10px; padding-right:10px; padding-top: 7px; padding-bottom: 10px;
+	display:block;
+	color:#333333;
+	
+}
+div.rowHeader{
+	margin:0px;
+	padding:15px 10px 25px 20px;
+}
+
+div.bureaux{
+	font-weight:bold;
+	font-size:1em;
+	color:#000000;
+	display:block;
+	padding-top:6px;
+}
+div.bureaux_desc{
+	font-weight:normal;
+	font-size:0.87em;
+	color:#000000;
+	display:block;
+}
+div.rowHeader{
+	margin:0px;
+	padding:15px 10px 25px 20px;
+}
+div.min38{
+	height:38px;
+	min-height:38px;
+}
+
+div.rowHeader div.gov_logo{
+	position:absolute;
+	
+}
+div.contenttable div.title {
+	color: #1a1a1a;
+	font-weight:bold;
+	background-color: #E8E3CD; padding-left: 10px; padding-top: 7px; padding-bottom: 10px;
+}
+
+div.contenttable div.ballotTitle {
+	font-weight:bold;
+	background-color: rgb(146,208,80); padding-left: 10px; padding-top: 7px; padding-bottom: 10px;
+}
+
+div.rowseperator {
+	padding-left: 10px; padding-right:10px; padding-top: 0px; padding-bottom: 0px;
+}
+div.seperator {
+	height:1px;
+	border-bottom:1px solid #BFBFBF;
+	overflow:hidden;
+}
+
+div.row div.colCell{
+	display:table-cell;
+	display:block;
+	
+	
+}
+
+div.contenttable div.row div.step{
+	padding:5px 0px 5px 0px;
+	border-bottom:0px solid #BFBFBF;
+}
+
+div.downloadLink div.icon{
+	float:left;
+	width:70px;
+	text-align:center;
+}
+div.downloadLink div.link{
+	float:right;
+	padding-top:2px;
+	color:#754C28;
+}
+div.downloadLink div.link a{
+	color:#003399;
+	text-decoration:none;
+	font-weight:normal;
+}
+div.downloadLink div.link a:visited{
+	color:#6B5B9A;
+}
+
+div.downloadLink div.link a:hover{
+	text-decoration:underline;
+	font-weight:normal;
+}
+
+div.contenttable div.tNc {
+	margin:0px;
+	padding:0px;
+	height:100px;
+	overflow-y:scroll;
+}
+
+div.contenttable div.tNc textarea{
+	width:99.9%;
+	height:100px;
+	border:none;
+	display:table-cell;	
+}
+div.choice2{
+	display:block;
+	margin-left:170px;
+}
+div.leftchoice2 {
+	float:left;
+	padding-left:30px;
+}
+
+div.rightlabel {
+	padding-top:1px;
+	padding-left: 100px;
+}
+div.leftchoice {
+	margin:0px;
+	padding:0px;
+	float:left; padding-right:10px;
+	position:relative;
+}
+div.leftchoice input{
+	border:none;
+}
+div.leftchoice .checkbox{
+}
+div.choice2 div.leftchoice{
+	margin:0px;
+	padding:0px;
+	float:left; padding-right:10px;
+	position:relative;
+	top:1px;
+}
+
+div.contenttable_button {
+	border: 1px #CCCCCC solid;
+	height:39px;
+}
+
+div.btnbar {
+	float:right;
+}
+
+div.footerlinks {
+	padding-top:23px;
+	padding-left:170px;
+}
+div.navstep {
+	width: 133px;
+	border:1px solid #cccccc;
+	margin-bottom: 12px;
+	display:block;
+	overflow:hidden;
+	color:#4D4D4D;
+}
+div.col_certtype {
+	float:left; width:121px; height: 100px;
+	top:-4px;
+	#top:-3px;
+	position:relative;
+}
+div.contenttable div.title_border {
+	color: #1a1a1a;
+	background-color: #E8E3CD; padding-left: 10px; padding-top: 7px; padding-bottom: 10px;
+	border-top:1px solid #E8E3CD;
+}
+
+
+div.step_hd{
+	background-image: url('../images/title_step.jpg');
+	background-repeat:repeat-y;
+	height:32px;
+	vertical-align:middle;
+	padding:10px 0px 0px 0px;
+}
+div.steplayer {
+	float:right;
+}
+span.steppage {
+	color: #666666;
+}
+span.note {
+	color: #CC0000;
+}
+input.text {
+	width: 150px;
+}
+ul.note{
+	color: #CC0000;
+	margin-left:30px;
+	list-style:decimal;
+}
+div.certtypelayer {
+	
+}
+
+div.certtypelayer div.rightlabel2 {
+	float:left;
+	width:120px;
+	border:none;
+}
+div.contenttable div.blankrow {
+	padding-left: 0px; padding-right:0px; padding-top: 0px; padding-bottom: 10px;
+
+}
+div.id_39_leftLabel{
+	float:left;
+	width:40%;
+	margin:0px 0px 0px 0px;
+	padding:3px 0px 0px 0px;
+	text-align:right;
+}
+
+div.id_39_rightLabel{
+	padding:3px 3px 3px 3px;
+	text-align:left;
+	display:inline-block;
+}
+.clear {clear:both; width:1px; height:1px; overflow:hidden}
+
+div.contenttable DIV.formBoxNew{
+	padding-left: 0px; padding-right:0px; padding-top: 0px; padding-bottom: 1px width:1px; height:1px; overflow:hidden
+}
+
+DIV.formFieldLabel30 {
+	float:left; width:150px;
+	text-align:left;
+	padding-right:15px;
+}
+
+DIV.formFieldLabel50 {
+	float:left; width:200px;
+	text-align:left;
+	padding-right:15px;
+}
+
+DIV.selectTextSize{
+    padding:3px 3px 3px 3px;
+	text-align:left;
+    overflow-x: auto;
+ 	overflow-y: none;
+	font-size:1.0em;
+}
+DIV.formFieldSelectComponent40 {
+	FLOAT: left; WIDTH: 36%; MARGIN: 5px; font-size:1.0em;
+}
+
+.TableBorder{
+	border:1px solid #CCCCCC;border-collapse:collapse;
+}
+
+.TableBorder td{	
+	border:1px solid #CCCCCC;
+}
+.TableBorder th{	
+	border: 1px solid #CCCCCC;	
+}
+
+div.contenttable div.rowNoSpace {
+    padding-left: 0px; padding-right:10px; padding-top: 0px; padding-bottom: 0px;
+    margin-left: 0px; margin-right:10px; margin-top: 0px; margin-bottom: 0px;
+	display:block;
+	color:#333333;
+	
+}
+/* add by Iven for new UI format End*/
+
+

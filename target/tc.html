@@ -1,0 +1,99 @@
+
+<!-- saved from url=(0136)https://t2.leisurelink.lcsd.gov.hk/lcsd/leisurelink/dispatchFlow.do?lang=TC&winId=5c051a41-fd13-139d-bb3f-93da27a8f596&tokenLifetime=600 -->
+<html style="background-color: black;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="X-UA-Compatible" content="IE=EmulateIE8">
+<script language="JavaScript">
+
+var winId = '5c051a41-fd13-139d-bb3f-93da27a8f596';
+var tokenLifetime = 600;
+
+if (winId!=''&&winId!=null&&winId!='null'&&tokenLifetime!=null){
+	setCookie("winId",winId,tokenLifetime);
+}
+
+checkWindowName();
+
+setInterval(function(){checkWindowName()}, 3000);
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+    }
+    return "";
+}
+function checkWindowName() {
+	
+	var cookieWinId=getCookie("winId");
+	var url = window.location.href;
+	var mId = ''
+	var nId = ''
+	//if(mId==''||mId=='null'){
+	//console.log('checkWindowName run: ' + window.name + ' url: ' + url + ' winid: ' + winId + ' cookieWinId: ' + cookieWinId);
+		if((window.name != null && window.name != '' && (window.name.substr(0, 4)!='LCSD') && url.indexOf("ack.do") <= -1 && (mId=='' || mId=='null')&& (nId=='' || nId=='null') )
+			|| 
+			(winId!=cookieWinId && url.indexOf("dispatchFlow.do") > -1)
+				){
+
+			//console.log('Invalid flow detected! run: ' + window.name + ' url: ' + url + ' winid: ' + winId + ' cookieWinId: ' + cookieWinId);
+			
+			setCookie("winId","",0);
+			disableOnbeforeunload();
+			window.location="/lcsd/leisurelink/dispatchFlow.do?error=1"
+				+"&flowId=99"
+				+"&winId="+winId
+				+"&winIdCookie="+cookieWinId
+				+"&lang=TC";
+		}
+	//}
+}
+	
+function setCookie(cname, cvalue, expms) {
+    var d = new Date();
+    d.setTime(d.getTime() + (expms*1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+	window.onbeforeunload = function () {
+	
+			return '你確定離開此服務?';
+		
+    }
+    
+    function disableOnbeforeunload(){
+    	window.onbeforeunload = null;
+    }
+</script><script language="JavaScript" type="text/javascript" src="./tc_files/keyTrap.js"></script><style></style><title>Screen ID SC-573-5-301 康樂及文化事務署 - 康體通</title></head>
+
+
+
+
+<frameset rows="0,*" frameborder="no" border="0">
+	<frame name="dummy_container" scrolling="no" marginwidth="0" marginheight="0" noresize="" src="./tc_files/t_frame.html">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<frame name="main" scrolling="auto" noresize="" src="./tc_files/login.html">
+</frameset>
+
+<noframes>
+      &lt;body&gt; 
+                &lt;p&gt;此程式需要一個支援超文字標記語言多窗口頁面的瀏覽器。&lt;/p&gt; 
+      &lt;/body&gt; 
+</noframes>
+
+
+</html>

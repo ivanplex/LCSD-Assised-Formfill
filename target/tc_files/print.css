@@ -1,0 +1,145 @@
+body { 
+  color : #000000; 
+  background : #ffffff;
+  height : auto
+}
+a { 
+  text-decoration : underline; 
+  color : #0000ff; 
+}
+.screenOnly{
+   display: none;
+}
+
+
+DIV.formFieldPanelColor {
+	FLOAT: left; WIDTH: 100%; BACKGROUND-COLOR: #f0f0f0; vertical-align: middle;
+	margin-bottom:2px;
+}
+
+DIV.formFieldSubPanelColor {
+	FLOAT: right; WIDTH: 100%; BACKGROUND-COLOR: #f0f0f0; vertical-align: middle;
+	margin-bottom:2px;
+}
+
+
+DIV.formFieldPanelColor1 {
+	FLOAT: left; WIDTH: 100%; BACKGROUND-COLOR: #fcf5e6; vertical-align: middle;
+}
+
+DIV.formFieldPanelColor2 {
+	FLOAT: left; WIDTH: 100%; BACKGROUND-COLOR: #f0f0f0
+}
+
+DIV.formFieldMandatoryArea {
+	PADDING-LEFT: 5px; FLOAT: left; WIDTH: 10px; COLOR: red; PADDING-TOP: 5px
+}
+
+SPAN.mandatoryIndicator {
+	FONT-SIZE: 1.15em; FONT-WEIGHT: normal; COLOR: red; FONT-FAMILY: Verdana;
+}
+
+DIV.formFieldHeading {
+	WIDTH:100%; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px;  
+}
+
+DIV.formFieldHeadingNo {
+	PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px;  
+}
+
+DIV.formFieldLabel {
+	PADDING-LEFT: 0px; FLOAT: left; WIDTH: 170px; PADDING-TOP: 5px; TEXT-ALIGN: right
+}
+
+DIV.formFieldLabel20 {
+	PADDING-LEFT: 10px; FLOAT: left; WIDTH: 20%; PADDING-TOP: 5px; TEXT-ALIGN: right
+}
+/*
+DIV.formFieldLabel {
+	PADDING-LEFT: 10px; FLOAT: left; WIDTH: 100%; PADDING-TOP: 5px
+}
+*/
+
+DIV.formSelectItemName {
+	PADDING-RIGHT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px
+}
+
+DIV.formSelectCheckbox {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+
+
+
+DIV.formFieldInputComponent {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 70%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent75 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 75%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent70 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 70%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent65 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 65%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent60 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 60%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent55 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 55%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent50 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 50%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent45 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 45%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent40 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 40%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent35 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 35%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent30 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 30%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent20 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 20%; PADDING-TOP: 5px
+}
+DIV.formFieldInputComponent10 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 10%; PADDING-TOP: 5px
+}
+
+/* add to avoid float flub in Mozilla/Firefox */
+DIV.formPanel {
+	PADDING-LEFT: 0px; FLOAT: none; WIDTH: 100%
+}
+
+DIV.locationPanelMozilla{
+	width:50%
+}
+
+DIV.addressInfoPanelMozilla{
+	width:15%
+}
+
+DIV.personalBtnPanelMozilla{
+	width:auto
+}
+
+DIV.locationPanelIE{
+	width:35%
+}
+
+DIV.addressInfoPanelIE{
+	width:20%
+}
+
+DIV.personalBtnPanelIE{
+	width:100%;
+}
+
+DIV.consectivePanel{
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; WIDTH: 60%; PADDING-TOP: 5px
+}
+

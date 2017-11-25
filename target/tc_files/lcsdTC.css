@@ -1,0 +1,125 @@
+
+INPUT.actionBtn {
+    font-size:1em;
+	background-color:#F2F2F2;
+	border:none;
+	cursor:pointer;
+	width:70px; height:39px;
+	font-weight: bold;
+	border:none;
+	border:1px solid #e8e8e8;
+	color: #4D4D4D;
+	#padding:3px 0px 0px 0px;	
+}
+
+INPUT.actionBtnDefault {
+	TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; FONT-WEIGHT:bold; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #cc0000; BORDER-RIGHT-WIDTH: 0px
+}
+
+INPUT.actionBtn_hover {
+	font-size:1em;
+	background-color:#D9D9D9;
+	border:none;
+	cursor:pointer;
+	width:70px; height:39px;
+	border:none;
+	border:1px solid #dfdfdf;
+	font-weight: bold;
+	color: #4D4D4D;
+	#padding:3px 0px 0px 0px;
+}
+INPUT.actionBtnDefault_hover {
+	TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; FONT-WEIGHT:bold; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #ff6600; BORDER-RIGHT-WIDTH: 0px; CURSOR:POINTER
+}
+
+INPUT.actionBtnSmall {
+	WIDHT:100%; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-left: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #666666; BORDER-RIGHT-WIDTH: 0px
+;margin: 3px;
+width: auto;
+overflow: visible;
+	                                                                                                                                                                                                                                                    
+}
+INPUT.actionBtnDefaultSmall {
+	WIDHT:100%; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #cc0000; BORDER-RIGHT-WIDTH: 0px
+;margin: 3px;
+width: auto;
+overflow: visible;
+}
+
+INPUT.actionBtnSmall_hover {
+	WIDHT:100%; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-left: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #ff6600; BORDER-RIGHT-WIDTH: 0px
+;margin: 3px;
+width: auto;
+overflow: visible;
+CURSOR:POINTER
+}
+INPUT.actionBtnDefaultSmall_hover {
+	WIDHT:100%; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #ff6600; BORDER-RIGHT-WIDTH: 0px
+;margin: 3px;
+width: auto;
+overflow: visible;
+CURSOR:POINTER
+}
+
+INPUT.actionBtnSmallAlignTop {
+	WIDHT:100%; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #FFFFFF; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #666666; BORDER-RIGHT-WIDTH: 0px	
+;margin-left:  3px; margin-right:3px; margin-bottom: 3px; margin-top: 0px;
+width: auto;
+overflow: visible;
+vertical-align:top
+}
+
+
+INPUT.actionBtnSmallAlignTop_hover {
+		WIDHT:100%; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #ff6600; BORDER-RIGHT-WIDTH: 0px 
+;margin-left:  3px; margin-right:3px; margin-bottom: 3px; margin-top: 0px;
+width: auto;
+overflow: visible;
+CURSOR:POINTER;
+vertical-align:top
+}
+/*add by Iven for new UI format begin*/
+INPUT.actionBtnSearch {
+    font-size:1em;
+	background-color:#F2F2F2;
+	border:none;
+	cursor:pointer;
+	width:148px; height:39px;
+	font-weight: bold;
+	border:none;
+	border:1px solid #e8e8e8;
+	color: #4D4D4D;
+	#padding:3px 0px 0px 0px;	
+}
+INPUT.actionBtnSearch_hover {
+	font-size:1em;
+	background-color:#D9D9D9;
+	border:none;
+	cursor:pointer;
+	width:148px; height:39px;
+	border:none;
+	border:1px solid #dfdfdf;
+	font-weight: bold;
+	color: #4D4D4D;
+	#padding:3px 0px 0px 0px;
+}
+INPUT.actionButton {
+	TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; FONT-WEIGHT:bold; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #666666; BORDER-RIGHT-WIDTH: 0px
+}
+INPUT.actionButton_hover {
+	TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-BOTTOM: 1px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1.15em; FONT-WEIGHT:bold; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; FONT-FAMILY: PMingLiU,MingLiU,Arial; BACKGROUND-COLOR: #ff6600; BORDER-RIGHT-WIDTH: 0px; CURSOR:POINTER
+}
+
+div.empty {
+	width: 100%;
+	height: 230px; padding-top:25px;
+}
+div.emptySmall {
+	width: 100%;
+	height: 60px; padding-top:25px;
+}
+div.emptyTable {
+	width: 100%;
+	height: 230px; padding-top:25px;
+}
+/*add by Iven for new UI format end*/
